@@ -1,0 +1,32 @@
+.video-thumbnail-section {
+    margin-left: 10%;
+    &__title {
+
+    }
+    &__description {
+        font-size: 12px;
+    }
+    &__image {
+        max-width: 200px;
+        max-height: 200px;
+        padding: 20px;
+        margin-bottom: 2px;
+    }
+    &__img-upload-btn {
+        color: red;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;
+    }
+}
+// .video-thumbnail-section__image{
+//     max-width: 200px;
+//     max-height: 200px;
+//     padding: 20px;
+//     margin-bottom: 2px;
+// }
+// .video-thumbnail-section__img-upload-btn {
+//     color: red;
+//     display: flex;
+//     flex-direction: row;
+// }

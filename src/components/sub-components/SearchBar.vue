@@ -1,5 +1,5 @@
 <template>
-<div class="control_wrapper">
+<div class="control_wrapper exercise-search-bar-wrapper" style="background-color: rgb(255 255 255 / 78%); padding: 20px 30px 20px 30px; border-radius: 5px;">
     <ejs-multiselect 
     id='multiselect' 
     :dataSource='localData'
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import matchReport from '../../../../src/convertCsvToJson/matchReport.json'
+import matchReport from '../../convertCsvToJson/matchReport.json'
 
 export default {
 
