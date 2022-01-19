@@ -7,7 +7,7 @@
             :src="videoImgSrc"
             @click="openUploadImg"
             alt="video thumbnail"
-            style="max-width: 250px; max-height: 200px;">
+            style="width: 100%; max-width: 300px; max-height: 250px;">
         </div>
         <b-button class="video-thumbnail-section__img-upload-btn">
             <label for="file-field">change thumbnail</label>
@@ -25,7 +25,7 @@ export default {
         },
         videoImgSrc: {
             type: String,
-            default: 'https://www.w3schools.com/html/pic_trulli.jpg'
+            default: 'https://i.vimeocdn.com/video/1009804007_1080x1920.jpg?r=pad'
         }
     }
 }
