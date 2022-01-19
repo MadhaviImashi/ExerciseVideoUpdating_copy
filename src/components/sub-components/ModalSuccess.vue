@@ -1,6 +1,6 @@
 <template>
   <div class="modal-success" style="background-color: #fff; padding: 100px; border-radius: 10px;">
-    <a-result title="xxxx exericise has been updated!">
+    <a-result :title="getTitle">
         <template #icon>
             <a-icon type="check-circle" theme="twoTone" two-tone-color="#52c41a" />
         </template>
@@ -18,9 +18,20 @@ export default {
   data() {
     return {};
   },
+  props: {
+      exerciseVidName: {
+          type: String,
+          default: ''
+      }
+  },
   methods: {
       showNextVideo() {
           this.$emit('showNextVideo', true)
+      }
+  },
+  computed: {
+      getTitle() {
+          return this.exerciseVidName+' exericise has been updated!'
       }
   }
 };

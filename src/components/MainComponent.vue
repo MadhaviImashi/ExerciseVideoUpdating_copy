@@ -3,15 +3,15 @@
     <div class="video-uploading-app__container">
 
       <div class="video-uploading-app__container-header">
-        <p>N / {{videos.length}}</p>
+        <p>{{currentVideoIndex+1}} / {{videos.length}}</p>
       </div>
 
       <div v-if="!showSuccessMsg" class="video-uploading-app__container-body">
         <div class="video-uploading-app__container-body--left">
-          <video-thumbnail :videoImgSrc="videos[0].VimeoImage"  :videoDetails="videos[0]"></video-thumbnail>
+          <video-thumbnail :videoImgSrc="videos[currentVideoIndex].VimeoImage"  :videoDetails="videos[currentVideoIndex]"></video-thumbnail>
         </div>
         <div v-if="showOptionsToMatch" class="video-uploading-app__container-body--right">
-          <match-video :videoDetails="videos[0]" @showNewExerciseForm="showExerciseForm"></match-video>
+          <match-video :videoDetails="videos[currentVideoIndex]" @showNewExerciseForm="showExerciseForm"></match-video>
         </div>
         <div v-if="showNewExerciseForm" class="video-uploading-app__container-body--right">
           <form-add-new-exercise @showMatchVideoOptions="showMatchVideoOptions" @showResult="showSuccessMsgModal"></form-add-new-exercise>
@@ -29,7 +29,7 @@
           <b-button variant="danger">Delete Video</b-button>
         </div>
         <div v-if="showSuccessMsg">
-          <modal-success @showNextVideo="openNextVideo"></modal-success>
+          <modal-success @showNextVideo="openNextVideo" :exerciseVidName="videos[currentVideoIndex].Exercisename"></modal-success>
         </div>
       </div>
     </div>
@@ -43,6 +43,7 @@ import FormAddNewExercise from './layouts/FormAddNewExercise.vue'
 import MatchVideo from './layouts/MatchVideo.vue'
 import VideoThumbnail from './layouts/VideoThumbnail.vue'
 import ModalSuccess from './sub-components/ModalSuccess.vue'
+import { mapMutations } from 'vuex'
 
 export default {
   name: 'MainComponent',
@@ -62,6 +63,9 @@ export default {
       }
   },
   methods: {
+    ...mapMutations([
+      'incrementCurrentIndexByOne'
+    ]),
     showExerciseForm () {
       this.showOptionsToMatch = false,
       this.showNewExerciseForm = true
@@ -77,12 +81,16 @@ export default {
     },
     openNextVideo () {
       //increment the current video index by one.
-
-      //update video states
+      this.incrementCurrentIndexByOne()
 
       //display video matching options window again
       this.showSuccessMsg = false,
       this.showOptionsToMatch = true
+    }
+  },
+  computed: {
+    currentVideoIndex () {
+      return this.$store.getters.getCurrentVidIndex
     }
   }
 }
