@@ -23,11 +23,14 @@ $bg-light-gray: #434343;
             padding: 50px;
             margin-right: 20px;
             margin-left: 20px;
+            p {
+                float: right;
+                font-size: 20px;
+            }
         }
         &-body {
             padding-left: 20px;
             padding-right: 20px;
-           
             &--left {
                 background-color: $bg-dark-gray; 
                 padding: 20px;
@@ -40,15 +43,50 @@ $bg-light-gray: #434343;
         }
         &-footer {
             background-color: #585858d1;
-            padding: 40px 50px 40px 40px;
             border-top: 15px solid $bg-dark-gray;
             margin-right: 20px;
             margin-left: 20px;
+            
+            &--skip {
+                padding: 40px 50px 40px 60px;
+                button {
+                    font-size: 20px;
+                    padding-left: 60px;
+                    padding-right: 60px;
+                }
+            }
+
+            &--next {
+                padding-top: 50px; 
+                padding-right: 50px;
+                padding-bottom: 50px;
+                position: relative;
+                button {
+                    position: static;
+                    float: right;
+                    -ms-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    font-size: 20px;
+                    padding-left: 60px;
+                    padding-right: 60px;
+                }
+                
+            }
+
+            &--delete {
+                padding: 40px 50px 40px 60px;
+                button {
+                    font-size: 20px;
+                    padding-left: 60px;
+                    padding-right: 60px;
+                }
+            }
         }
     }
 }
 
-@media only screen and (min-width: 666px) {
+// when screen size is > 950px
+@media only screen and (min-width: 950px) {
 
     .video-uploading-app {
         color: $color-primary;
@@ -86,11 +124,17 @@ $bg-light-gray: #434343;
 
 }
 
-@media only screen and (max-width: 666px) {
+// following changes will be applied only when screen size is < 950px (mobile mode) 
+@media only screen and (max-width: 950px) {
     .video-uploading-app__container {
         &-body {
             &--right {
                 border-top: 2px solid #585858d1;
+            }
+        }
+        &-footer {           
+            &--skip {
+                padding: 40px 50px 40px 80px;
             }
         }
     }

@@ -1,0 +1,155 @@
+.match-video-with-exercises-section {
+  margin-left: 10%;
+  padding-right: 30px;
+}
+.match-video-with-exercises-section__description {
+  font-size: 8px;
+}
+
+.video-thumbnail-section {
+  margin-left: 10%;
+}
+.video-thumbnail-section__title {
+  font-size: 12px;
+}
+.video-thumbnail-section__video-name {
+  font-size: 16px;
+  font-style: bold;
+}
+.video-thumbnail-section__description {
+  font-size: 10px;
+}
+.video-thumbnail-section__image {
+  max-width: 200px;
+  max-height: 200px;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+.video-thumbnail-section__img-upload-btn {
+  color: red;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.form-add-new-exercise {
+  margin-left: 10%;
+  padding-right: 30px;
+}
+
+.video-uploading-app {
+  color: #fff;
+  background-color: #1a1a1a;
+  min-height: 100vh;
+  padding: 10px;
+  margin: 0;
+}
+.video-uploading-app__container {
+  width: 100%;
+  height: 100%;
+}
+.video-uploading-app__container-header {
+  background-color: #2e2e2e;
+  padding: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.video-uploading-app__container-header p {
+  float: right;
+  font-size: 20px;
+}
+.video-uploading-app__container-body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.video-uploading-app__container-body--left {
+  background-color: #2e2e2e;
+  padding: 20px;
+}
+.video-uploading-app__container-body--right {
+  background-color: #2e2e2e;
+  padding: 20px;
+}
+.video-uploading-app__container-footer {
+  background-color: #585858d1;
+  border-top: 15px solid #2e2e2e;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.video-uploading-app__container-footer--skip {
+  padding: 40px 50px 40px 60px;
+}
+.video-uploading-app__container-footer--skip button {
+  font-size: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.video-uploading-app__container-footer--next {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.video-uploading-app__container-footer--next button {
+  position: static;
+  float: right;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.video-uploading-app__container-footer--delete {
+  padding: 40px 50px 40px 60px;
+}
+.video-uploading-app__container-footer--delete button {
+  font-size: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+@media only screen and (min-width: 950px) {
+  .video-uploading-app {
+    color: #fff;
+    background-color: #1a1a1a;
+    min-height: 100vh;
+    padding: 100px 80px 50px 80px;
+    margin: 0;
+  }
+  .video-uploading-app__container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .video-uploading-app__container-body {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .video-uploading-app__container-body--left {
+    background-color: #2e2e2e;
+    width: 40%;
+    padding: 20px;
+  }
+  .video-uploading-app__container-body--right {
+    border-left: 2px solid #585858d1;
+    width: 60%;
+    background-color: #2e2e2e;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .video-uploading-app__container-body--right {
+    border-top: 2px solid #585858d1;
+  }
+  .video-uploading-app__container-footer--skip {
+    padding: 40px 50px 40px 80px;
+  }
+}
+.exercise-search-bar-wrapper {
+  background-color: #c4c4c4;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

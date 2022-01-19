@@ -1,11 +1,15 @@
 import Vue from 'vue'
 import App from './App.vue'
+import Antd from 'ant-design-vue'
 import { BootstrapVue, BootstrapVueIcons, LayoutPlugin,  FormPlugin} from 'bootstrap-vue'
 import { MultiSelectPlugin } from '@syncfusion/ej2-vue-dropdowns';
 
 // Import Bootstrap an BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+import 'ant-design-vue/dist/antd.css';
+Vue.use(Antd)
 
 Vue.use(MultiSelectPlugin);
 

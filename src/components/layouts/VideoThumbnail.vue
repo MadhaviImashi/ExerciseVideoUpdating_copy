@@ -1,6 +1,7 @@
 <template>
     <div class="video-thumbnail-section">
         <div class="video-thumbnail-section__title">Video</div>
+        <div class="video-thumbnail-section__video-name" style="font-size: 30px; font-weight: bold;">{{videoDetails.Exercisename}}</div>
         <div class="video-thumbnail-section__description">50 MB 720px X 800px 10/10/2022 8:00 pm</div>
         <div class="video-thumbnail-section__image">
             <img 
@@ -17,6 +18,7 @@
 </template>
 
 <script>
+
 export default {
     name: 'VideoThumbnail',
     props: {
@@ -25,7 +27,7 @@ export default {
         },
         videoImgSrc: {
             type: String,
-            default: 'https://i.vimeocdn.com/video/1009804007_1080x1920.jpg?r=pad'
+            default: '../../assets/images/thumbnail_img.png'
         }
     }
 }
