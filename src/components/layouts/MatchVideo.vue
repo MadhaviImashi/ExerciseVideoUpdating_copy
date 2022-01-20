@@ -12,7 +12,7 @@
                             <span class="me-3">{{videoDetails.Exercisename}}</span>
                             <a :href="videoDetails.VimeoLink" target="_blank"><b-icon-eye :variant="'white'" scale="1.5"></b-icon-eye></a>
                         </b-col>
-                        <b-col><b-button size="sm" style="float: right; margin-right: 20%;">view details</b-button></b-col>
+                        <b-col><b-button @click="showExerciseDetails" size="sm" style="float: right; margin-right: 20%;">view details</b-button></b-col>
                     </b-row>
                     <p>or</p>
                 </div>
@@ -45,6 +45,9 @@ export default {
     methods: {
         showNewExerciseForm () {
             this.$emit('showNewExerciseForm', true)
+        },
+        showExerciseDetails () {
+            this.$emit('showExerciseDetails', true)
         }
     }
 }

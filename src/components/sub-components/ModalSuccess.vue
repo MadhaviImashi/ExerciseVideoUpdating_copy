@@ -22,6 +22,10 @@ export default {
       exerciseVidName: {
           type: String,
           default: ''
+      },
+      statusMsg: {
+          type: String,
+          default: ''
       }
   },
   methods: {
@@ -31,7 +35,7 @@ export default {
   },
   computed: {
       getTitle() {
-          return this.exerciseVidName+' exericise has been updated!'
+          return this.exerciseVidName+' exericise has been ' + this.statusMsg+ '!'
       }
   }
 };

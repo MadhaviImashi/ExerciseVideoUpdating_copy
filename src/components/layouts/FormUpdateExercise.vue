@@ -1,22 +1,23 @@
 <template>
 <div>
-  <div class="form-add-new-exercise" style="margin-left: 10%; padding-right: 30px; padding-bottom: 40px;">
+  <div class="form-add-new-exercise" style="margin-left: 10%; padding-right: 30px;">
     <b-button class="mb-5" style="padding: 10px 30px 10px 30px;" @click="goBack" >
       <b-icon-arrow-left :variant="'white'" scale="2"></b-icon-arrow-left>
-    </b-button><br>
+    </b-button>
+    <p style="color: #FFF; font-size: 25px; font-weight: bold;">{{videoDetails.Exercisename}}</p>
 
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-row class="mb-3">
         <b-col sm="3"><label for="input-1" >Equipment</label></b-col>
         <b-col sm="9">
-          <b-form-input id="input-1" v-model="form.equipment" type="text" placeholder="" class="form-inputs" required></b-form-input>
+          <b-form-input id="input-1" v-model="form.equipment" type="text" placeholder="" required></b-form-input>
         </b-col>
       </b-row>
 
       <b-row class="mb-3">
         <b-col sm="3"><label for="input-2" >Muscle Groups</label></b-col>
         <b-col sm="9">
-          <b-form-input id="input-2" v-model="form.priority" type="text" placeholder="Calves"  class="form-inputs" required></b-form-input>
+          <b-form-input id="input-2" v-model="form.priority" type="text" placeholder="Calves" required></b-form-input>
         </b-col>
       </b-row>
 
@@ -25,7 +26,7 @@
         <b-col sm="9">
           <b-form-checkbox-group v-model="form.checked" id="checkboxes-3" :aria-describedby="ariaDescribedby">
             <b-row cols="1">
-              <b-form-checkbox value="Men">Men</b-form-checkbox><b-form-checkbox value="Women"  class="form-inputs-checkbox">Women</b-form-checkbox>
+              <b-form-checkbox value="Men">Men</b-form-checkbox><b-form-checkbox value="Women">Women</b-form-checkbox>
             </b-row>
           </b-form-checkbox-group>
         </b-col>
@@ -36,7 +37,7 @@
         <b-col sm="9">
           <b-form-checkbox-group v-model="form.checked" id="checkboxes-4" :aria-describedby="ariaDescribedby">
             <b-row cols="1">
-              <b-form-checkbox value="Home">Home</b-form-checkbox><b-form-checkbox value="Gym" class="form-inputs-checkbox">Gym</b-form-checkbox>
+              <b-form-checkbox value="Home">Home</b-form-checkbox><b-form-checkbox value="Gym">Gym</b-form-checkbox>
             </b-row>
           </b-form-checkbox-group>
         </b-col>
@@ -45,42 +46,42 @@
       <b-row class="mb-3">
         <b-col sm="3"><label for="input-5" >Level</label></b-col>
         <b-col sm="9">
-          <b-form-input id="input-5" v-model="form.level" type="text" placeholder="Beginner" class="form-inputs" required></b-form-input>
+          <b-form-input id="input-5" v-model="form.level" type="text" placeholder="Beginner" required></b-form-input>
         </b-col>
       </b-row>
 
       <b-row class="mb-3"> 
         <b-col sm="3"><label for="input-6" >Priority</label></b-col>
         <b-col sm="9">
-          <b-form-input id="input-6" v-model="form.priority" type="text" placeholder="P1" class="form-inputs" required></b-form-input>
+          <b-form-input id="input-6" v-model="form.priority" type="text" placeholder="P1" required></b-form-input>
         </b-col>
       </b-row>
 
       <b-row class="mb-3">
         <b-col sm="3"><label for="input-7" >Injuries</label></b-col>
         <b-col sm="9">
-          <b-form-input id="input-7" v-model="form.injuries" type="text" placeholder="Legs" class="form-inputs" required></b-form-input>
+          <b-form-input id="input-7" v-model="form.injuries" type="text" placeholder="Legs" required></b-form-input>
         </b-col>
       </b-row>
 
       <b-row class="mb-3">
         <b-col sm="3"><label for="text-area" >Description</label></b-col>
         <b-col sm="9">
-          <b-form-textarea rows="1" id="text-area" size="sm" class="form-inputs"></b-form-textarea>
+          <b-form-textarea rows="1" id="text-area" size="sm"></b-form-textarea>
         </b-col>
       </b-row>
 
       <b-row class="mb-3">
         <b-col sm="3"><label for="input-9" >Metrics</label></b-col>
         <b-col sm="9">
-          <b-form-input id="input-9" v-model="form.metrics" type="text" placeholder="Metrics" class="form-inputs" required></b-form-input>
+          <b-form-input id="input-9" v-model="form.metrics" type="text" placeholder="Metrics" required></b-form-input>
         </b-col>
       </b-row>
 
       <b-row class="mb-3">
         <b-col sm="3"><label for="input-10" >Reps</label></b-col>
         <b-col sm="9">
-          <b-form-input id="input-10" v-model="form.reps" type="text" placeholder="Reps" class="form-inputs" required></b-form-input>
+          <b-form-input id="input-10" v-model="form.reps" type="text" placeholder="Reps" required></b-form-input>
         </b-col>
       </b-row>
 
@@ -107,6 +108,11 @@
         show: true
       }
     },
+    props: {
+        videoDetails: {
+            type: Object
+        }
+    },
     methods: {
       onSubmit(event) {
         event.preventDefault()
@@ -129,11 +135,8 @@
         this.$emit('showMatchVideoOptions', true)
       },
       showResult () {
-        this.$emit('showResult', 'added')
+        this.$emit('showResult', 'updated')
       }
     }
   }
 </script>
-
-<style scoped>
-</style>
