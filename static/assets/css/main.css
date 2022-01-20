@@ -2,39 +2,23 @@
   margin-left: 10%;
   padding-right: 30px;
 }
-.match-video-with-exercises-section__description {
-  font-size: 8px;
-}
-
 .video-thumbnail-section {
   margin-left: 10%;
-}
-.video-thumbnail-section__title {
-  font-size: 12px;
-}
-.video-thumbnail-section__video-name {
-  font-size: 16px;
-  font-style: bold;
-}
-.video-thumbnail-section__description {
-  font-size: 10px;
-}
-.video-thumbnail-section__image {
-  max-width: 200px;
-  max-height: 200px;
-  padding: 20px;
-  margin-bottom: 5px;
-}
-.video-thumbnail-section__img-upload-btn {
-  color: red;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 5px;
 }
 
 .form-add-new-exercise {
   margin-left: 10%;
   padding-right: 30px;
+}
+
+.form-inputs {
+  background-color: #1a1a1a;
+  border-style: none;
+  color: #FFF;
+}
+
+.form-inputs-checkbox {
+  color: #1a1a1a;
 }
 
 .video-uploading-app {
