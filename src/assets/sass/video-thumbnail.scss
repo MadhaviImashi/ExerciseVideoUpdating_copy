@@ -1,6 +1,5 @@
 .video-thumbnail-section {
     margin-left: 10%;
-    // margin-right: 10%;
 
     &__title {
         font-size: 16px;
@@ -26,7 +25,6 @@
             max-height: 250px;
             border: 1px solid rgb(37, 36, 36);
             border-radius: 5px;
-            // padding-right: 10px;
         }
     }
     &__img-upload-btn {
@@ -36,8 +34,6 @@
             margin-bottom: 17px;
             padding: 5px;
             color: black;
-            label {
-            }
             input {
                 display: none;
             }

@@ -9,11 +9,6 @@
                 <div v-if="videoDetails.Matched === 'Yes'">
                     <b-row  class="view-video-info">
                         <b-col cols="1" sm="1" class="view-video-info__name-with-icon-eye">
-                            <!-- <a :href="videoDetails.VimeoLink">
-                                <b-icon-eye class="icon-eye" :variant="'white'" scale="1.5">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7-sE2-ZIz44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </b-icon-eye>
-                            </a> -->
                             <a>
                                 <b-icon-eye class="view-video__icon-eye" :variant="'white'" scale="1.5" id="show-btn" @click="$bvModal.show('bv-modal-example')"></b-icon-eye>
                                 <b-modal id="bv-modal-example" hide-footer>
