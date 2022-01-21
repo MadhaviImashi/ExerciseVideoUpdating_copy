@@ -151,7 +151,7 @@
 .video-updating-app-container {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(800deg, #727f8b 50%, #001d3d 50%);
+  background: linear-gradient(800deg, #727f8b 50%, #14213d 50%);
   justify-content: center;
   overflow-y: auto;
   padding: 5% 0px 5% 0px;
@@ -159,14 +159,14 @@
 }
 
 .video-updating-app {
-  padding: 20px;
-  box-shadow: 5px 5px 9px rgba(8, 71, 153, 0.185);
+  padding: 15px;
+  box-shadow: 3px 3px 5px rgba(8, 71, 153, 0.185);
 }
 .video-updating-app__header--left {
   background-color: #000000;
 }
 .video-updating-app__header--right {
-  background-color: #14213d;
+  background-color: #001d3d;
 }
 .video-updating-app__header--right p {
   float: right;
@@ -184,10 +184,10 @@
   border-top: 1px solid #041220;
 }
 .video-updating-app__body--right {
-  background-color: #14213d;
+  background-color: #001d3d;
 }
 .video-updating-app__footer {
-  background-color: #14213d;
+  background-color: #001d3d;
   border-top: 6px solid #000000;
 }
 .video-updating-app__footer--skip {
