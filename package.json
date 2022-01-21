@@ -7,7 +7,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "watch:sass": "sass --watch src/assets/sass/main.scss:static/assets/css/main.css"
+    "watch:sass": "sass --watch src/assets/sass/main2.scss:src/assets/css/main.css"
   },
   "dependencies": {
     "@syncfusion/ej2-vue-dropdowns": "^19.4.42",

@@ -1,26 +1,46 @@
 <template>
     <div class="match-video-with-exercises-section">
-        <div class="match-video-with-exercises-section__title" style="margin-bottom: 10px;">Exercise</div>
+        <div class="match-video-with-exercises-section__title">Exercise</div>
 
-        <div v-if="videoDetails.Matched === 'No'" class="match-video-with-exercises-section__description" style="margin-right: 10%; margin-bottom: 30px; font-size: 15px">{{descriptionForUnmatchedVideos}}</div>
-        <div v-if="videoDetails.Matched === 'Yes'" class="match-video-with-exercises-section__description" style="margin-right: 10%; margin-bottom: 30px; font-size: 15px">{{descriptionForMatchedVideos}}</div>
+        <div v-if="videoDetails.Matched === 'No'" class="match-video-with-exercises-section__description">{{descriptionForUnmatchedVideos}}</div>
+        <div v-if="videoDetails.Matched === 'Yes'" class="match-video-with-exercises-section__description">{{descriptionForMatchedVideos}}</div>
 
          <div class="match-video-with-exercises-section__options">
                 <div v-if="videoDetails.Matched === 'Yes'">
-                    <b-row class="view-video-and-video-details">
-                        <b-col>
-                            <span class="me-3">{{videoDetails.Exercisename}}</span>
-                            <a :href="videoDetails.VimeoLink" target="_blank"><b-icon-eye :variant="'white'" scale="1.5"></b-icon-eye></a>
+                    <b-row  class="view-video-info">
+                        <b-col cols="1" sm="1" class="view-video-info__name-with-icon-eye">
+                            <!-- <a :href="videoDetails.VimeoLink">
+                                <b-icon-eye class="icon-eye" :variant="'white'" scale="1.5">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7-sE2-ZIz44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </b-icon-eye>
+                            </a> -->
+                            <a>
+                                <b-icon-eye class="view-video__icon-eye" :variant="'white'" scale="1.5" id="show-btn" @click="$bvModal.show('bv-modal-example')"></b-icon-eye>
+                                <b-modal id="bv-modal-example" hide-footer>
+                                    <div class="d-block text-center">
+                                        <iframe :src="'https://player.vimeo.com/video/665732096?h=600f1855e3'" width="420" height="350" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </b-modal>
+                            </a>
+
+                            <span>{{videoDetails.Exercisename}}</span>
                         </b-col>
-                        <b-col><b-button @click="showExerciseDetails" size="sm" style="float: right; margin-right: 20%;">view details</b-button></b-col>
+                        <b-col class="view-video-info__view-form">
+                            <b-button @click="showExerciseDetails" size="sm">view details</b-button>
+                        </b-col>
                     </b-row>
-                    <p>or</p>
+                    <p class="plain-text">or</p>
                 </div>
-                <div style="margin-right: 10%;">
+
+                <div class="search-bar">
                     <search-bar></search-bar>
                 </div>
-                <p>or</p>
-                <b-button variant="warning" size="lg" @click="showNewExerciseForm">Create New exercise</b-button>
+                
+                <p class="plain-text">or</p>
+
+                <div class="add-new-exercise">
+                    <b-button size="lg" @click="showNewExerciseForm">Create New exercise</b-button>
+                </div>
         </div>
     </div>
 </template>

@@ -3,10 +3,82 @@
     padding-right: 30px;
 
     &__title {
-
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #b0bcc7;
     }
 
     &__description {
-        
+        margin-right: 5%; 
+        margin-bottom: 30px; 
+        font-size: 14px;
+        color: #b0bcc7;
+    }
+    &__options {
+        .view-video-info {
+            background-color: black;
+            margin-left: 0;
+            margin-right: 5%;
+            border-radius: 5px;
+            
+            &__name-with-icon-eye {
+                padding: 7px 12px 5px 0px;
+                clear: both;
+                display: inline-block;
+                white-space: nowrap;
+                a {
+                    margin-left: 4px;
+                    margin-right: 5px;
+                    padding: 10px;
+                    .icon-eye {
+                        font-size: 15px;
+                        margin-top: 6px;
+                    }
+                }
+                span {
+                    color: #b0bcc7;
+                }
+            }
+            
+            &__view-form {
+                padding: 5px;
+                button {
+                    float: right; 
+                    background-color: #727f8b;
+                    color: black;
+                    :hover {
+                        cursor: pointer;
+                        background-color: rgb(121, 120, 120);
+                    }
+                }
+            }
+        }
+
+        .plain-text {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #b0bcc7;
+            font-style: italic;
+        }
+
+        .search-bar {
+            margin-right: 10%;
+        }
+
+        .add-new-exercise {
+            margin-right: 10%;
+            margin-bottom: 30px;
+            button {
+                background-color: transparent;
+                color: #b0bcc7;
+            }
+            button:hover {
+                color: black;
+                background-color: #faad14;
+            }
+        }
     }
 }
+

@@ -1,37 +1,47 @@
 .video-thumbnail-section {
     margin-left: 10%;
+    // margin-right: 10%;
 
-    // &__title {
-    //     font-size: 12px;
-    // }
-    // &__video-name {
-    //     font-size: 16px;
-    //     font-style: bold;
-    // }
-    // &__description {
-    //     font-size: 10px;
-    // }
-    // &__image {
-    //     max-width: 200px;
-    //     max-height: 200px;
-    //     padding: 20px;
-    //     margin-bottom: 5px;
-    // }
-    // &__img-upload-btn {
-    //     color: red;
-    //     display: flex;
-    //     flex-direction: row;
-    //     margin-bottom: 5px;
-    // }
+    &__title {
+        font-size: 16px;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        color: #86919c;
+    }
+    &__video-name {
+        font-size: 27px; 
+        font-weight: bold;
+        color: #b0bcc7;
+        margin-bottom: 10px;
+    }
+    &__description {
+        font-size: 12px;
+        margin-bottom: 8px;
+        color: #86919c;
+    }
+    &__image {
+        img {
+            width: 100%; 
+            max-width: 280px; 
+            max-height: 250px;
+            border: 1px solid rgb(37, 36, 36);
+            border-radius: 5px;
+            // padding-right: 10px;
+        }
+    }
+    &__img-upload-btn {
+        button {
+            background-color: #727f8b;
+            margin-top: 15px;
+            margin-bottom: 17px;
+            padding: 5px;
+            color: black;
+            label {
+            }
+            input {
+                display: none;
+            }
+        }
+        
+    }
 }
-// .video-thumbnail-section__image{
-//     max-width: 200px;
-//     max-height: 200px;
-//     padding: 20px;
-//     margin-bottom: 2px;
-// }
-// .video-thumbnail-section__img-upload-btn {
-//     color: red;
-//     display: flex;
-//     flex-direction: row;
-// }

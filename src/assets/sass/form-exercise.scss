@@ -1,13 +1,44 @@
-.form-add-new-exercise {
+.form-exercise {
     margin-left: 10%;
     padding-right: 30px;
+    color: #b0bcc7;
+
+    &__button-back {
+        button {
+            padding: 8px 20px 8px 20px; 
+            margin-bottom: 25px;
+            margin-top: 10px;
+            background-color: #727f8b;
+        }
+    }
+    &__exercise-name {
+        color: #b0bcc7; 
+        font-size: 25px; 
+        font-weight: bold;
+    }
+    &__inputs {
+        .form-inputs {
+            background-color: rgb(1 10 16 / 65%); 
+            border-style: none; 
+            color: #FFF;
+        }
+        .form-inputs-checkbox {
+                clear: both;
+                display: inline-block;
+                white-space: nowrap;
+        }
+        .form-check-input {
+            background-color: rgb(1 10 16 / 65%); 
+        }
+        &-button-submit {
+            float:right; 
+            button {
+                padding: 5px 40px 5px 40px;
+                margin-bottom: 20px;
+            }
+        }
+    }
 }
 
-.form-inputs {
-    background-color: #1a1a1a; 
-    border-style: none; 
-    color: #FFF;
-}
-.form-inputs-checkbox {
-  color: #1a1a1a;
-}
+
+

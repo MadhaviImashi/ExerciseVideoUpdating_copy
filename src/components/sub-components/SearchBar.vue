@@ -1,5 +1,5 @@
 <template>
-<div class="control_wrapper exercise-search-bar-wrapper" style="background-color: rgb(255 255 255 / 0.7); padding: 20px 30px 20px 30px; border-radius: 5px;">
+<div class="control_wrapper exercise-search-bar-wrapper" style="background-color: transparent;">
     <ejs-multiselect 
     id='multiselect' 
     :dataSource='localData'

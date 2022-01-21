@@ -1,92 +1,108 @@
 <template>
 <div>
-  <div class="form-add-new-exercise" style="margin-left: 10%; padding-right: 30px;">
-    <b-button class="mb-5" style="padding: 10px 30px 10px 30px;" @click="goBack" >
-      <b-icon-arrow-left :variant="'white'" scale="2"></b-icon-arrow-left>
-    </b-button>
-    <p style="color: #FFF; font-size: 25px; font-weight: bold;">{{videoDetails.Exercisename}}</p>
+  <div class="form-exercise">
+    <div class="form-exercise__button-back">
+        <b-button style="" @click="goBack" >
+            <b-icon-arrow-left :variant="'white'" scale="2" class="form-exercise__button-back-icon"></b-icon-arrow-left>
+        </b-button>
+    </div>
 
-    <b-form @submit="onSubmit" @reset="onReset" v-if="show">
-      <b-row class="mb-3">
-        <b-col sm="3"><label for="input-1" >Equipment</label></b-col>
-        <b-col sm="9">
-          <b-form-input id="input-1" v-model="form.equipment" type="text" placeholder="" required></b-form-input>
-        </b-col>
-      </b-row>
+    <p class="form-exercise__exercise-name">{{videoDetails.Exercisename}}</p>
 
-      <b-row class="mb-3">
-        <b-col sm="3"><label for="input-2" >Muscle Groups</label></b-col>
-        <b-col sm="9">
-          <b-form-input id="input-2" v-model="form.priority" type="text" placeholder="Calves" required></b-form-input>
-        </b-col>
-      </b-row>
+    <div class="form-exercise__inputs">
+      <b-form @submit="onSubmit" @reset="onReset" v-if="show">
+        <b-row class="mb-2">
+          <b-col sm="3"><label for="input-1" >Equipment</label></b-col>
+          <b-col sm="9">
+            <b-form-input id="input-1" v-model="form.equipment" type="text" placeholder="" class="form-inputs" required></b-form-input>
+          </b-col>
+        </b-row>
 
-      <b-row class="mb-3">
-        <b-col sm="3"><label for="checkboxes-3" >Gender</label></b-col>
-        <b-col sm="9">
-          <b-form-checkbox-group v-model="form.checked" id="checkboxes-3" :aria-describedby="ariaDescribedby">
-            <b-row cols="1">
-              <b-form-checkbox value="Men">Men</b-form-checkbox><b-form-checkbox value="Women">Women</b-form-checkbox>
+        <b-row class="mb-2">
+          <b-col sm="3"><label for="input-2" >Muscle Groups</label></b-col>
+          <b-col sm="9">
+            <b-form-input id="input-2" v-model="form.priority" type="text" placeholder="Calves"  class="form-inputs" required></b-form-input>
+          </b-col>
+        </b-row>
+
+        
+          <b-form-group >
+            <b-row class="mb-2">
+              <b-col sm="3"><label >Gender</label></b-col>
+              <b-col sm="9">
+                <b-form-checkbox-group
+                    v-model="selected"
+                    :options="genderOptions"
+                    :aria-describedby="ariaDescribedby"
+                    plain
+                  ></b-form-checkbox-group>
+              </b-col>
             </b-row>
-          </b-form-checkbox-group>
-        </b-col>
-      </b-row>
+          </b-form-group>
+        
 
-      <b-row class="mb-3">
-        <b-col sm="3"><label for="checkboxes-4" >Location</label></b-col>
-        <b-col sm="9">
-          <b-form-checkbox-group v-model="form.checked" id="checkboxes-4" :aria-describedby="ariaDescribedby">
-            <b-row cols="1">
-              <b-form-checkbox value="Home">Home</b-form-checkbox><b-form-checkbox value="Gym">Gym</b-form-checkbox>
+        <b-form-group >
+            <b-row class="mb-2">
+              <b-col sm="3"><label >Location</label></b-col>
+              <b-col sm="9">
+                <b-form-checkbox-group
+                checked="checked"
+                    v-model="selected"
+                    :options="locationOptions"
+                    :aria-describedby="ariaDescribedby"
+                    plain
+                  ></b-form-checkbox-group>
+              </b-col>
             </b-row>
-          </b-form-checkbox-group>
-        </b-col>
-      </b-row>
+          </b-form-group>
 
-      <b-row class="mb-3">
-        <b-col sm="3"><label for="input-5" >Level</label></b-col>
-        <b-col sm="9">
-          <b-form-input id="input-5" v-model="form.level" type="text" placeholder="Beginner" required></b-form-input>
-        </b-col>
-      </b-row>
+        <b-row class="mb-2">
+          <b-col sm="3"><label for="input-5" >Level</label></b-col>
+          <b-col sm="9">
+            <b-form-input id="input-5" v-model="form.level" type="text" placeholder="Beginner" class="form-inputs" required></b-form-input>
+          </b-col>
+        </b-row>
 
-      <b-row class="mb-3"> 
-        <b-col sm="3"><label for="input-6" >Priority</label></b-col>
-        <b-col sm="9">
-          <b-form-input id="input-6" v-model="form.priority" type="text" placeholder="P1" required></b-form-input>
-        </b-col>
-      </b-row>
+        <b-row class="mb-2"> 
+          <b-col sm="3"><label for="input-6" >Priority</label></b-col>
+          <b-col sm="9">
+            <b-form-input id="input-6" v-model="form.priority" type="text" placeholder="P1" class="form-inputs" required></b-form-input>
+          </b-col>
+        </b-row>
 
-      <b-row class="mb-3">
-        <b-col sm="3"><label for="input-7" >Injuries</label></b-col>
-        <b-col sm="9">
-          <b-form-input id="input-7" v-model="form.injuries" type="text" placeholder="Legs" required></b-form-input>
-        </b-col>
-      </b-row>
+        <b-row class="mb-2">
+          <b-col sm="3"><label for="input-7" >Injuries</label></b-col>
+          <b-col sm="9">
+            <b-form-input id="input-7" v-model="form.injuries" type="text" placeholder="Legs" class="form-inputs" required></b-form-input>
+          </b-col>
+        </b-row>
 
-      <b-row class="mb-3">
-        <b-col sm="3"><label for="text-area" >Description</label></b-col>
-        <b-col sm="9">
-          <b-form-textarea rows="1" id="text-area" size="sm"></b-form-textarea>
-        </b-col>
-      </b-row>
+        <b-row class="mb-2">
+          <b-col sm="3"><label for="text-area" >Description</label></b-col>
+          <b-col sm="9">
+            <b-form-textarea rows="1" id="text-area" size="sm" class="form-inputs"></b-form-textarea>
+          </b-col>
+        </b-row>
 
-      <b-row class="mb-3">
-        <b-col sm="3"><label for="input-9" >Metrics</label></b-col>
-        <b-col sm="9">
-          <b-form-input id="input-9" v-model="form.metrics" type="text" placeholder="Metrics" required></b-form-input>
-        </b-col>
-      </b-row>
+        <b-row class="mb-2">
+          <b-col sm="3"><label for="input-9" >Metrics</label></b-col>
+          <b-col sm="9">
+            <b-form-input id="input-9" v-model="form.metrics" type="text" placeholder="Metrics" class="form-inputs" required></b-form-input>
+          </b-col>
+        </b-row>
 
-      <b-row class="mb-3">
-        <b-col sm="3"><label for="input-10" >Reps</label></b-col>
-        <b-col sm="9">
-          <b-form-input id="input-10" v-model="form.reps" type="text" placeholder="Reps" required></b-form-input>
-        </b-col>
-      </b-row>
+        <b-row class="mb-2">
+          <b-col sm="3"><label for="input-10" >Reps</label></b-col>
+          <b-col sm="9">
+            <b-form-input id="input-10" v-model="form.reps" type="text" placeholder="Reps" class="form-inputs" required></b-form-input>
+          </b-col>
+        </b-row>
 
-      <b-button style="float:right; padding: 10px 40px 10px 40px;" type="submit" variant="success" @click="showResult">Save</b-button>
-    </b-form>
+        <div class="form-exercise__inputs-button-submit">
+            <b-button type="submit" variant="success" @click="showResult">Save</b-button>
+        </div> 
+      </b-form>
+    </div>
   </div>
 </div>
 </template>
@@ -94,9 +110,17 @@
 <script>
   export default {
   
-    name: 'FormAddNewExercise',
+    name: 'FormUpdateExercise',
     data() {
       return {
+        genderOptions: [
+          {text: 'Men', value: 'Men'},
+          {text: 'Women', value: 'Women'}
+        ],
+        locationOptions: [
+          {text: 'Gym', value: 'Gym'},
+          {text: 'Home', value: 'Home'}
+        ],
         showSuccessMsg: false,
         form: {
           email: '',

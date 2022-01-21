@@ -2,7 +2,7 @@
   <div class="modal-success" style="background-color: #fff; padding: 100px; border-radius: 10px;">
     <a-result :title="getTitle">
         <template #icon>
-            <a-icon type="check-circle" theme="twoTone" two-tone-color="#52c41a" />
+            <a-icon type="check-circle" theme="twoTone" two-tone-color="#52c41a" class="svg-fill-color"/>
         </template>
         <template #extra>
             <b-button variant="success" size="lg" style="padding: 10px 50px 10px 50px;" @click="showNextVideo">

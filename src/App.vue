@@ -6,7 +6,7 @@
 
 <script>
 import mainComponent from './components/MainComponent.vue'
-import "../static/assets/css/main.css";
+import "./assets/css/main.css";
 
 export default {
   name: 'App',
