@@ -65,12 +65,12 @@
   margin-bottom: 30px;
 }
 .match-video-with-exercises-section__options .add-new-exercise button {
-  background-color: transparent;
-  color: #b0bcc7;
-}
-.match-video-with-exercises-section__options .add-new-exercise button:hover {
   color: black;
   background-color: #faad14;
+}
+.match-video-with-exercises-section__options .add-new-exercise button:hover {
+  background-color: transparent;
+  color: #b0bcc7;
 }
 
 .video-thumbnail-section {
@@ -159,8 +159,8 @@
 }
 
 .video-updating-app {
-  padding: 15px;
-  box-shadow: 3px 3px 5px rgba(8, 71, 153, 0.185);
+  padding: 20px;
+  box-shadow: 5px 5px 9px rgba(8, 71, 153, 0.185);
 }
 .video-updating-app__header--left {
   background-color: #000000;

@@ -71,12 +71,12 @@
             margin-right: 10%;
             margin-bottom: 30px;
             button {
-                background-color: transparent;
-                color: #b0bcc7;
-            }
-            button:hover {
                 color: black;
                 background-color: #faad14;
+            }
+            button:hover {
+                background-color: transparent;
+                color: #b0bcc7;
             }
         }
     }
