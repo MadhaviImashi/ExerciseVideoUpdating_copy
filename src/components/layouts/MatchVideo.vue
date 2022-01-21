@@ -22,15 +22,16 @@
                                     </div>
                                 </b-modal>
                             </a>
-
                             <span>{{videoDetails.Exercisename}}</span>
                         </b-col>
                         <b-col class="view-video-info__view-form">
                             <b-button @click="showExerciseDetails" size="sm">view details</b-button>
                         </b-col>
                     </b-row>
-                    <p class="plain-text">or</p>
+                    <p class="plain-text">or Search from entire exercise list</p>
                 </div>
+
+                <div  v-if="videoDetails.Matched === 'No'"><p class="plain-text">Search from entire exercise list</p></div>
 
                 <div class="search-bar">
                     <search-bar></search-bar>

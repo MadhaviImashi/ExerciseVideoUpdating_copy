@@ -3,7 +3,7 @@
   <div class="form-exercise">
     <div class="form-exercise__button-back">
         <b-button style="" @click="goBack" >
-            <b-icon-arrow-left :variant="'white'" scale="2" class="form-exercise__button-back-icon"></b-icon-arrow-left>
+            <b-icon-arrow-left :variant="'#727f8b'" scale="1.3" class="form-exercise__button-back-icon"></b-icon-arrow-left>
         </b-button>
     </div>
 

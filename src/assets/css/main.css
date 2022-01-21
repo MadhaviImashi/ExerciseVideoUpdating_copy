@@ -53,7 +53,7 @@
 .match-video-with-exercises-section__options .plain-text {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 14px;
   color: #b0bcc7;
   font-style: italic;
 }
@@ -65,12 +65,12 @@
   margin-bottom: 30px;
 }
 .match-video-with-exercises-section__options .add-new-exercise button {
-  color: black;
-  background-color: #faad14;
-}
-.match-video-with-exercises-section__options .add-new-exercise button:hover {
   background-color: transparent;
   color: #b0bcc7;
+}
+.match-video-with-exercises-section__options .add-new-exercise button:hover {
+  color: black;
+  background-color: #faad14;
 }
 
 .video-thumbnail-section {
@@ -120,7 +120,8 @@
   padding: 8px 20px 8px 20px;
   margin-bottom: 25px;
   margin-top: 10px;
-  background-color: #727f8b;
+  background-color: #0e0f10;
+  border: 0;
 }
 .form-exercise__exercise-name {
   color: #b0bcc7;
@@ -146,6 +147,7 @@
 .form-exercise__inputs-button-submit button {
   padding: 5px 40px 5px 40px;
   margin-bottom: 20px;
+  background-color: #0a5c36;
 }
 
 .video-updating-app-container {
@@ -166,7 +168,7 @@
   background-color: #000000;
 }
 .video-updating-app__header--right {
-  background-color: #001d3d;
+  background-color: #001e3c;
 }
 .video-updating-app__header--right p {
   float: right;
@@ -178,6 +180,7 @@
   box-shadow: 2px 2px 5px #161414;
   border-radius: 5px;
   color: #c5ced6;
+  background-color: #05264ee3;
 }
 .video-updating-app__body--left {
   background-color: #000000;
@@ -231,6 +234,24 @@
   padding-left: 40px;
   padding-right: 40px;
   margin-left: 10%;
+}
+
+.exercise-search-bar-wrapper {
+  background-color: #e5e5e5;
+  padding: 5px 12px 5px 12px;
+  border-radius: 5px;
+  color: white;
+  border: 2px solid #000000;
+  box-shadow: 5px 5px 8px #1a1a1a;
+}
+
+@media screen and (max-width: 767px) {
+  .video-updating-app__footer--skip {
+    padding: 16px 50px 20px 30px;
+  }
+  .video-updating-app__footer--skip button {
+    margin-left: 20%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

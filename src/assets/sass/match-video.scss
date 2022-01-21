@@ -58,7 +58,7 @@
         .plain-text {
             margin-top: 20px;
             margin-bottom: 20px;
-            font-size: 16px;
+            font-size: 14px;
             color: #b0bcc7;
             font-style: italic;
         }
@@ -71,12 +71,12 @@
             margin-right: 10%;
             margin-bottom: 30px;
             button {
-                color: black;
-                background-color: #faad14;
-            }
-            button:hover {
                 background-color: transparent;
                 color: #b0bcc7;
+            }
+            button:hover {
+                color: black;
+                background-color: #faad14;
             }
         }
     }

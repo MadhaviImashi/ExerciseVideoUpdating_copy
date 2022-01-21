@@ -3,6 +3,7 @@ import App from './App.vue'
 import Antd from 'ant-design-vue'
 import { BootstrapVue, BootstrapVueIcons, LayoutPlugin,  FormPlugin} from 'bootstrap-vue'
 import { MultiSelectPlugin } from '@syncfusion/ej2-vue-dropdowns';
+import { AutoCompletePlugin } from '@syncfusion/ej2-vue-dropdowns';
 import Vuex from 'vuex'
 import store from './store/store.js'
 
@@ -16,6 +17,7 @@ import 'ant-design-vue/dist/antd.css';
 Vue.use(Antd)
 
 Vue.use(MultiSelectPlugin);
+Vue.use(AutoCompletePlugin);
 
 Vue.use(BootstrapVue)
 Vue.use(LayoutPlugin)
