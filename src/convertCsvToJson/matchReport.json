@@ -1,905 +1,5 @@
 [
  {
-  "Exercisename": "Wide Drop Squat",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929669",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009804076_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Circuit Lower",
-  "Metric1": "Reps",
-  "Metric2": "Duration",
-  "PersonalBestTracking": "Reps"
- },
- {
-  "Exercisename": "Weighted Crunch",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929655",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009804007_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Core Abdominals",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "BodyWeight Walking Lunges",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929648",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009804074_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home Only",
-  "MuscleGroup": "Circuit Lower",
-  "Metric1": "Reps",
-  "Metric2": "",
-  "PersonalBestTracking": "Reps"
- },
- {
-  "Exercisename": "Dumbbell walking lunges",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929643",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009804100_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Quadriceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "V-Bar Pulldown",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929636",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803951_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Back",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Tricep Rope Pushdown",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929614",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803853_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Triceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Triceps Pushdown (Bar)",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929611",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009804023_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Triceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Tricep Dips",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929599",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803796_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Triceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Reps"
- },
- {
-  "Exercisename": "Tricep Dips (Bench)",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929582",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803799_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Triceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Reps"
- },
- {
-  "Exercisename": "Static Dumbbell Lunge",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929560",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803704_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Glutes",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Barbell Static Lunge",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929556",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803781_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Glutes",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Dumbbell Standing Calf Raise",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929541",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803682_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Calves",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Smith Machine Reverse Lunges",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929508",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803636_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Quadriceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Single Leg Leg Press",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929497",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803611_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Glutes",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Dumbbell Single Arm Row",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929487",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803865_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Back",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Dumbbell Single Arm Row (2)",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929485",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803902_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Back",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Single Leg Calf Raise",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929472",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803478_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Calves",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Dumbbell Shoulder Press",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929464",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803486_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Shoulders",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Seated Arnold Press",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929456",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803479_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Shoulders",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Barbell Rack Pull",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929409",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803428_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Back",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Preacher Curl",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929383",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803326_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Biceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Dumbbell Tricep Extension",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929357",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803398_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Triceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Leg Press (Machine)",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929329",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803245_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Quadriceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Leg Extensions (Machine)",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929326",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803435_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Quadriceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Lying Leg Curl",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929318",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803288_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Hamstrings",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Side Step Squat",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929303",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803219_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Women",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Glutes",
-  "Metric1": "Reps",
-  "Metric2": "Duration",
-  "PersonalBestTracking": "Reps"
- },
- {
-  "Exercisename": "Inch Worm",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929293",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803202_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Warm Up Upper",
-  "Metric1": "Reps",
-  "Metric2": "",
-  "PersonalBestTracking": "Reps"
- },
- {
-  "Exercisename": "Hyperextension",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929282",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803212_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Back",
-  "Metric1": "Reps",
-  "Metric2": "Duration",
-  "PersonalBestTracking": "Reps"
- },
- {
-  "Exercisename": "Hack Squat",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929260",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803215_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Quadriceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Goblet Squat",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929257",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803151_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Quadriceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Elbow to Knees Sit Up",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929218",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803103_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P3",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Core Abdominals",
-  "Metric1": "Reps",
-  "Metric2": "Duration",
-  "PersonalBestTracking": "Reps"
- },
- {
-  "Exercisename": "Dumbbell Step Up",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929204",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803074_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home Only",
-  "MuscleGroup": "Glutes",
-  "Metric1": "Reps",
-  "Metric2": "Duration",
-  "PersonalBestTracking": "Reps"
- },
- {
-  "Exercisename": "Dumbbell Squats",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929196",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803071_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Quadriceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Dumbbell Jumping Squat",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929188",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803048_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Quadriceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Dumbbell Pull Over",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929155",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802971_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Chest",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Incline Dumbbell Flies",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929140",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803147_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Chest",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Incline Dumbbell Press",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929133",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009803084_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Chest",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Hammer Curl",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929121",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802973_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Biceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Dumbbell Chest Press",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929107",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802920_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Chest",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Incline Dumbbell Flies",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929098",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802959_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Chest",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Dumbbell Flat Bench Press",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929077",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802997_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Chest",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "DeadBug Extension",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929069",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802936_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Warm Up Lower",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Machine Chest Press",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929041",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802817_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Chest",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Tricep Overhead Extension (Rope)",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929026",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802911_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Triceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Glute Kickback (Cable)",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929022",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802780_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Women",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Glutes",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Cable Chest Fly",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929014",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802760_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Chest",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Butt Kicks (2)",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487929000",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802771_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Circuit Cardio",
-  "Metric1": "Duration",
-  "Metric2": "",
-  "PersonalBestTracking": "Duration"
- },
- {
-  "Exercisename": "Bulgarian Split Squat (Quad Dominant)",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487928992",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802775_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Women",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Quadriceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Bulgarian Split Squat (Glute Dominant)",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487928984",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802738_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Women",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Glutes",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Dumbbell Tricep Kickback",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487928961",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802741_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Triceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Dumbbell Reverse Fly",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487928956",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802925_2160x3840.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P2",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Shoulders",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Easy Curl Bar SkullCrusher",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487928929",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802605_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Triceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Incline Barbell Chest Press",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487928904",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802643_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Chest",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Barbell Hip Thrust",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487928902",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802649_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Women",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Glutes",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Barbell Chest Press",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487928887",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802572_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Chest",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Banded Side Squat",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487928876",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802537_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Women",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Glutes",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Incline Alternating Dumbbell Curl",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487928862",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802476_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Gym Only",
-  "MuscleGroup": "Biceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Alternating Dumbbell Curl",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487928848",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802449_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Biceps",
-  "Metric1": "Reps",
-  "Metric2": "Weight",
-  "PersonalBestTracking": "Weight"
- },
- {
-  "Exercisename": "Air Squat",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487928836",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802545_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Glutes",
-  "Metric1": "Reps",
-  "Metric2": "Duration",
-  "PersonalBestTracking": "Reps"
- },
- {
-  "Exercisename": "180 Degree Jump Squat",
-  "TrainerLink": "",
-  "VimeoLink": "https://vimeo.com/487928829",
-  "VimeoImage": "https://i.vimeocdn.com/video/1009802399_1080x1920.jpg?r=pad",
-  "Matched": "No",
-  "Gender(Male/Female/Anyone)": "Anyone",
-  "Priority": "P1",
-  "Level": "Beginner",
-  "Location(Gym/Home/Any)": "Home and Gym",
-  "MuscleGroup": "Circuit Cardio",
-  "Metric1": "Reps",
-  "Metric2": "Duration",
-  "PersonalBestTracking": "Reps"
- },
- {
   "Exercisename": "ZottMan Curl",
   "TrainerLink": "https://macroactive-jackcoffey.macroactive.io/fitness/exercises/2",
   "VimeoLink": "https://vimeo.com/487929681",
@@ -912,7 +12,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Wide Grip Lat Pulldown",
@@ -927,7 +28,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Weighted Squat",
@@ -942,7 +44,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Wall sit",
@@ -957,7 +60,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Up and Down Plank",
@@ -972,7 +76,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Underhand Lat Pulldown",
@@ -987,7 +92,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Tricep Push up",
@@ -1002,7 +108,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Floor back extensions",
@@ -1017,7 +124,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Sumo Deadlift",
@@ -1032,7 +140,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Straight Arm Pulldown",
@@ -1047,7 +156,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Star Jumps",
@@ -1062,7 +172,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Standing Single Leg Calf Raise",
@@ -1077,7 +188,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Standing Calf Raise Machine",
@@ -1092,7 +204,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Squat Press",
@@ -1107,7 +220,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Squat Jump",
@@ -1122,7 +236,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Snow Angels",
@@ -1137,7 +252,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Smith Machine Squat",
@@ -1152,7 +268,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Skaters",
@@ -1167,7 +284,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Single Leg Back Stepping Lunges",
@@ -1182,7 +300,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Side Plank",
@@ -1197,7 +316,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Shuttle Runs",
@@ -1212,7 +332,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Seated Dumbbell Calf Raise",
@@ -1227,7 +348,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Seated Calf Raise Machine",
@@ -1242,7 +364,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Wide Grip Seated Cable Row",
@@ -1257,7 +380,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Narrow Grip Seated Cable Row",
@@ -1272,7 +396,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Russian Twist",
@@ -1287,7 +412,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Romanian Deadlift",
@@ -1302,7 +428,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Reverse Deltoid Fly Machine",
@@ -1317,7 +444,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Renegade Row",
@@ -1332,7 +460,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Push Up",
@@ -1347,7 +476,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Push Up With Arm Row",
@@ -1362,7 +492,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Plyo Push Up",
@@ -1377,7 +508,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Plank",
@@ -1392,7 +524,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Plank Jack",
@@ -1407,7 +540,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Nordic Hamstring Curl",
@@ -1422,7 +556,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Mountain Climbers",
@@ -1437,7 +572,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Machine Shoulder Press",
@@ -1452,7 +588,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Leg Lowers",
@@ -1467,7 +604,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Kick Sit",
@@ -1482,7 +620,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Star Jumps",
@@ -1497,7 +636,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Hip Bridge",
@@ -1512,7 +652,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Half Burpee",
@@ -1527,7 +668,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Frog Squat",
@@ -1542,7 +684,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Floor Back Extensions",
@@ -1557,7 +700,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Flat Lying Row",
@@ -1572,7 +716,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "FacePull",
@@ -1587,7 +732,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Dumbbell Upright Row",
@@ -1602,7 +748,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Dumbbell Stiff Leg Deadlift",
@@ -1617,7 +764,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Dumbbell Skullcrusher",
@@ -1632,7 +780,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Dumbbell Single Leg DeadLift",
@@ -1647,7 +796,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Dumbbell Side Bend",
@@ -1662,7 +812,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Dumbbell Shrugs",
@@ -1677,7 +828,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Dumbbell Rear Lunges",
@@ -1692,7 +844,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Dumbbell Lateral Raise",
@@ -1707,7 +860,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Dumbbell Incline Row",
@@ -1722,7 +876,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Dumbbell Front Raise",
@@ -1737,7 +892,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Dumbbell Floor Press",
@@ -1752,7 +908,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Dumbbell DeadLift",
@@ -1767,7 +924,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Dumbbell Bent Over Row",
@@ -1782,7 +940,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Curtsy Lunge",
@@ -1797,7 +956,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Crab Walk",
@@ -1812,7 +972,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Concentration Curls",
@@ -1827,7 +988,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Close Grip Bench Press",
@@ -1842,7 +1004,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Chin Up",
@@ -1857,7 +1020,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Calf Raise Leg Press Machine",
@@ -1872,7 +1036,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Cable Pullthrough",
@@ -1887,7 +1052,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "C Crunch",
@@ -1902,7 +1068,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Burpee",
@@ -1917,7 +1084,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Broad Jump Jog Back",
@@ -1932,7 +1100,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Bodyweight Squat",
@@ -1947,7 +1116,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Birddog",
@@ -1962,7 +1132,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Leg Lowers",
@@ -1977,7 +1148,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Bear Crawl",
@@ -1992,7 +1164,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Basic Crunch",
@@ -2007,7 +1180,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Barbell Upright Row",
@@ -2022,7 +1196,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Barbell Squat",
@@ -2037,7 +1212,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Barbell Shrug",
@@ -2052,7 +1228,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Barbell Shoulder Press",
@@ -2067,7 +1244,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Barbell Deadlift",
@@ -2082,7 +1260,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Barbell Bicep Curl",
@@ -2097,7 +1276,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Barbell Bent Over Row",
@@ -2112,7 +1292,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Banded Fire Hydrant",
@@ -2127,7 +1308,8 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
  },
  {
   "Exercisename": "Ball Leg Curl",
@@ -2142,6 +1324,967 @@
   "MuscleGroup": "",
   "Metric1": "",
   "Metric2": "",
-  "PersonalBestTracking": ""
+  "PersonalBestTracking": "",
+  "": ""
+ },
+ {
+  "Exercisename": "Wide Drop Squat",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929669",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009804076_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Circuit Lower",
+  "Metric1": "Reps",
+  "Metric2": "Duration",
+  "PersonalBestTracking": "Reps",
+  "": ""
+ },
+ {
+  "Exercisename": "Weighted Crunch",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929655",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009804007_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Core Abdominals",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "BodyWeight Walking Lunges",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929648",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009804074_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home Only",
+  "MuscleGroup": "Circuit Lower",
+  "Metric1": "Reps",
+  "Metric2": "",
+  "PersonalBestTracking": "Reps",
+  "": ""
+ },
+ {
+  "Exercisename": "Dumbbell walking lunges",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929643",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009804100_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Quadriceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "V-Bar Pulldown",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929636",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803951_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Back",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Tricep Rope Pushdown",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929614",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803853_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Triceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Triceps Pushdown (Bar)",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929611",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009804023_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Triceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Tricep Dips",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929599",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803796_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Triceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Reps",
+  "": ""
+ },
+ {
+  "Exercisename": "Tricep Dips (Bench)",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929582",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803799_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Triceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Reps",
+  "": ""
+ },
+ {
+  "Exercisename": "Static Dumbbell Lunge",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929560",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803704_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Glutes",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Barbell Static Lunge",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929556",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803781_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Glutes",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Dumbbell Standing Calf Raise",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929541",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803682_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Calves",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Smith Machine Reverse Lunges",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929508",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803636_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Quadriceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Single Leg Leg Press",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929497",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803611_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Glutes",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Dumbbell Single Arm Row",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929487",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803865_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Back",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Dumbbell Single Arm Row (2)",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929485",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803902_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Back",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Single Leg Calf Raise",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929472",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803478_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Calves",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Dumbbell Shoulder Press",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929464",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803486_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Shoulders",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Seated Arnold Press",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929456",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803479_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Shoulders",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Barbell Rack Pull",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929409",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803428_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Back",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Preacher Curl",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929383",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803326_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Biceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Dumbbell Tricep Extension",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929357",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803398_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Triceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Leg Press (Machine)",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929329",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803245_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Quadriceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Leg Extensions (Machine)",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929326",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803435_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Quadriceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Lying Leg Curl",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929318",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803288_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Hamstrings",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Side Step Squat",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929303",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803219_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Women",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Glutes",
+  "Metric1": "Reps",
+  "Metric2": "Duration",
+  "PersonalBestTracking": "Reps",
+  "": ""
+ },
+ {
+  "Exercisename": "Inch Worm",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929293",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803202_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Warm Up Upper",
+  "Metric1": "Reps",
+  "Metric2": "",
+  "PersonalBestTracking": "Reps",
+  "": ""
+ },
+ {
+  "Exercisename": "Hyperextension",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929282",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803212_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Back",
+  "Metric1": "Reps",
+  "Metric2": "Duration",
+  "PersonalBestTracking": "Reps",
+  "": ""
+ },
+ {
+  "Exercisename": "Hack Squat",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929260",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803215_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Quadriceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Goblet Squat",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929257",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803151_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Quadriceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Elbow to Knees Sit Up",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929218",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803103_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P3",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Core Abdominals",
+  "Metric1": "Reps",
+  "Metric2": "Duration",
+  "PersonalBestTracking": "Reps",
+  "": ""
+ },
+ {
+  "Exercisename": "Dumbbell Step Up",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929204",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803074_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home Only",
+  "MuscleGroup": "Glutes",
+  "Metric1": "Reps",
+  "Metric2": "Duration",
+  "PersonalBestTracking": "Reps",
+  "": ""
+ },
+ {
+  "Exercisename": "Dumbbell Squats",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929196",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803071_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Quadriceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Dumbbell Jumping Squat",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929188",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803048_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Quadriceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Dumbbell Pull Over",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929155",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802971_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Chest",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Incline Dumbbell Flies",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929140",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803147_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Chest",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Incline Dumbbell Press",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929133",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009803084_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Chest",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Hammer Curl",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929121",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802973_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Biceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Dumbbell Chest Press",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929107",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802920_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Chest",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Incline Dumbbell Flies",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929098",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802959_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Chest",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Dumbbell Flat Bench Press",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929077",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802997_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Chest",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "DeadBug Extension",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929069",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802936_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Warm Up Lower",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Machine Chest Press",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929041",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802817_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Chest",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Tricep Overhead Extension (Rope)",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929026",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802911_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Triceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Glute Kickback (Cable)",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929022",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802780_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Women",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Glutes",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Cable Chest Fly",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929014",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802760_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Chest",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Butt Kicks (2)",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487929000",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802771_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Circuit Cardio",
+  "Metric1": "Duration",
+  "Metric2": "",
+  "PersonalBestTracking": "Duration",
+  "": ""
+ },
+ {
+  "Exercisename": "Bulgarian Split Squat (Quad Dominant)",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487928992",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802775_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Women",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Quadriceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Bulgarian Split Squat (Glute Dominant)",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487928984",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802738_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Women",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Glutes",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Dumbbell Tricep Kickback",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487928961",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802741_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Triceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Dumbbell Reverse Fly",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487928956",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802925_2160x3840.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P2",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Shoulders",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Easy Curl Bar SkullCrusher",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487928929",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802605_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Triceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Incline Barbell Chest Press",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487928904",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802643_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Chest",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Barbell Hip Thrust",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487928902",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802649_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Women",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Glutes",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Barbell Chest Press",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487928887",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802572_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Chest",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Banded Side Squat",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487928876",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802537_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Women",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Glutes",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Incline Alternating Dumbbell Curl",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487928862",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802476_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Gym Only",
+  "MuscleGroup": "Biceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Alternating Dumbbell Curl",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487928848",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802449_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Biceps",
+  "Metric1": "Reps",
+  "Metric2": "Weight",
+  "PersonalBestTracking": "Weight",
+  "": ""
+ },
+ {
+  "Exercisename": "Air Squat",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487928836",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802545_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Glutes",
+  "Metric1": "Reps",
+  "Metric2": "Duration",
+  "PersonalBestTracking": "Reps",
+  "": ""
+ },
+ {
+  "Exercisename": "180 Degree Jump Squat",
+  "TrainerLink": "",
+  "VimeoLink": "https://vimeo.com/487928829",
+  "VimeoImage": "https://i.vimeocdn.com/video/1009802399_1080x1920.jpg?r=pad",
+  "Matched": "No",
+  "Gender(Male/Female/Anyone)": "Anyone",
+  "Priority": "P1",
+  "Level": "Beginner",
+  "Location(Gym/Home/Any)": "Home and Gym",
+  "MuscleGroup": "Circuit Cardio",
+  "Metric1": "Reps",
+  "Metric2": "Duration",
+  "PersonalBestTracking": "Reps",
+  "": ""
  }
 ]
