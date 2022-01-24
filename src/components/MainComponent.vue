@@ -12,16 +12,30 @@
           <b-row v-if="!showSuccessMsg" class="video-updating-app__body" cols="1" cols-sm="1" cols-md="2" cols-lg="2">
               <!-- video thumbnail will be shown on the left side -->
               <b-col class="video-updating-app__body--left">
-                  <video-thumbnail :videoImgSrc="'https://martech.org/wp-content/uploads/2015/01/video-generic-ss-1920.jpg'"  :videoDetails="videos[currentVideoIndex]"></video-thumbnail>
+                  <video-thumbnail 
+                      :videoImgSrc="'https://martech.org/wp-content/uploads/2015/01/video-generic-ss-1920.jpg'"  
+                      :videoDetails="videos[currentVideoIndex]" 
+                      :currentIndex="currentVideoIndex" 
+                      @displayNextVideoToBeMatched="showMatchVideoOptions"></video-thumbnail>
               </b-col>
               <b-col class="video-updating-app__body--right">
                 <!-- video matching options Or form to update/add new exercise will be shown on the right side-->
                   <div v-if="showOptionsToMatch">
-                    <match-video :videoDetails="videos[currentVideoIndex]" @showNewExerciseForm="showAddExerciseForm" @showExerciseDetails="showExerciseUpdateForm"></match-video>
+                    <match-video 
+                        :videoDetails="videos[currentVideoIndex]" 
+                        @showNewExerciseForm="showAddExerciseForm" 
+                        @showExerciseDetails="showExerciseUpdateForm"></match-video>
                   </div>
                   <div v-else >
-                    <form-add-new-exercise v-if="showNewExerciseForm" @showMatchVideoOptions="showMatchVideoOptions" @showResult="showSuccessMsgModal($event)"></form-add-new-exercise>
-                    <form-update-exercise v-if="showUpdateExerciseForm" @showMatchVideoOptions="showMatchVideoOptions" @showResult="showSuccessMsgModal($event)" :videoDetails="videos[currentVideoIndex]"></form-update-exercise>
+                    <form-add-new-exercise v-if="showNewExerciseForm" 
+                        @showMatchVideoOptions="showMatchVideoOptions" 
+                        @showResult="showSuccessMsgModal($event)">
+                    </form-add-new-exercise>
+                    <form-update-exercise v-if="showUpdateExerciseForm" 
+                        @showMatchVideoOptions="showMatchVideoOptions" 
+                        @showResult="showSuccessMsgModal($event)" 
+                        :videoDetails="videos[currentVideoIndex]">
+                    </form-update-exercise>
                   </div>
               </b-col>
           </b-row>
@@ -52,7 +66,11 @@
 
           <!--success modal-->
           <div v-if="showSuccessMsg">
-            <modal-success @showNextVideo="openNextVideo" :exerciseVidName="videos[currentVideoIndex].Exercisename" :statusMsg="successStatus"></modal-success>
+            <modal-success 
+                @showNextVideo="openNextVideo" 
+                :exerciseVidName="videos[currentVideoIndex].Exercisename" 
+                :statusMsg="successStatus">
+            </modal-success>
           </div>
         </div>
       </b-container>
@@ -61,7 +79,6 @@
 
 <script>
 
-import matchReport from '../convertCsvToJson/matchReport.json'
 import FormAddNewExercise from './layouts/FormAddNewExercise.vue'
 import FormUpdateExercise from './layouts/FormUpdateExercise.vue'
 import MatchVideo from './layouts/MatchVideo.vue'
@@ -81,7 +98,6 @@ export default {
   },
   data: function () {
       return {
-          videos: matchReport,
           showOptionsToMatch: true,
           showNewExerciseForm: false,
           showSuccessMsg: false,
@@ -135,6 +151,9 @@ export default {
   computed: {
     currentVideoIndex () {
       return this.$store.getters.getCurrentVidIndex
+    },
+    videos () {
+      return this.$store.getters.getmatchReport
     }
   }
 }

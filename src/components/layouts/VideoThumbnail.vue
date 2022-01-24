@@ -23,7 +23,7 @@
                 </div>
             </b-col>
             <b-col>
-                <!-- show delete video option when user view exercise details or add new exercise form -->
+                <!-- show delete video option when user open add new exercise form -->
                 <div v-if="showDeleteVideoOption" class="video-thumbnail-section__delete-btn">
                     <b-button variant="outline-danger" @click="showConfirmationBox">Delete Video</b-button>
                 </div> 
@@ -34,6 +34,8 @@
 
 <script>
 
+import {mapMutations} from 'vuex';
+
 export default {
     name: 'VideoThumbnail',
     props: {
@@ -43,9 +45,15 @@ export default {
         videoImgSrc: {
             type: String,
             default: '../../assets/images/thumbnail_img.png'
+        },
+        currentIndex: {
+            type: Number
         }
     },
     methods: {
+        ...mapMutations([
+            'deleteAVideoFromVideosArray'
+        ]),
         openUploadImg () {
             console.log('dkd')
         },
@@ -68,8 +76,9 @@ export default {
                 console.log('value: ', value)
                 if(value === true) {
                     // delete this video from the video list array
-
+                    this.deleteAVideoFromVideosArray(this.currentIndex)
                     // display the next subsequent video
+                    this.$emit('displayNextVideoToBeMatched', true)
                 }
             })
             .catch(err => {

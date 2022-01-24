@@ -6,6 +6,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
     state: {
+        videos: matchReport,
         currentVideoIndex: 0,
         showDeleteVideoOption: false,
     },
@@ -15,23 +16,32 @@ export default new Vuex.Store({
         },
         getShowDeleteVideoOptionStatus(state) {
             return state.showDeleteVideoOption
+        },
+        getmatchReport(state) {
+            return state.videos
         }
     },
     mutations: {
         incrementCurrentIndexByOne(state) {
             state.currentVideoIndex++;
-            if (state.currentVideoIndex > matchReport.length-1) {
+            if (state.currentVideoIndex > state.videos.length-1) {
                 state.currentVideoIndex = 0;
             }
         },
         decrementCurrentIndexByOne(state) {
             state.currentVideoIndex--;
             if (state.currentVideoIndex === -1) {
-                state.currentVideoIndex = matchReport.length-1;
+                state.currentVideoIndex = state.videos.length-1;
             }
         },
         changeVideoDeleteButtonDisplayStatus(state, status) {
             state.showDeleteVideoOption = status;
+        },
+        deleteAVideoFromVideosArray(state, index) {
+            state.videos.splice(index, 1)
+            if (state.currentVideoIndex === state.videos.length) {
+                state.currentVideoIndex = 0;
+            }
         }
     }
 })
