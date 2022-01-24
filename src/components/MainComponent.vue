@@ -55,13 +55,13 @@
               </b-col>
 
               <b-col class="video-updating-app__footer-right">  
-                <b-row class="video-updating-app__footer-right-container" >
+                <!-- <b-row class="video-updating-app__footer-right-container" >
                     <b-col></b-col>
                     <b-col></b-col>
                     <b-col v-if="showOptionsToMatch" class="video-updating-app__footer-right-container--complete">
                         <b-button @click="openNextVideo">Complete</b-button>
                     </b-col>
-                </b-row>
+                </b-row> -->
               </b-col>
           </b-row>
 
