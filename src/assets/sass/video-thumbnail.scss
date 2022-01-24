@@ -1,22 +1,30 @@
 .video-thumbnail-section {
     margin-left: 10%;
-
+    margin-right: 10%;
+    font-size: 12px;
+    border-top: 2px solid #041220;
+    
     &__title {
-        font-size: 16px;
-        margin-bottom: 5px;
-        margin-top: 10px;
         color: #86919c;
+        margin-top: 25px;
+        margin-bottom: 1px;
+        font-size: 12px;
+    }
+    &__sub-title {
+        font-size: 12px;
+        color: #86919c;
+        margin-bottom: 1px;
     }
     &__video-name {
-        font-size: 27px; 
-        font-weight: bold;
         color: #b0bcc7;
-        margin-bottom: 10px;
+        margin-bottom: 1px;
+        font-size: 22px;
+        font-weight: 600;
     }
     &__description {
-        font-size: 12px;
-        margin-bottom: 8px;
         color: #86919c;
+        margin-bottom: 1px;
+        font-weight: 200;
     }
     &__image {
         img {
@@ -24,20 +32,28 @@
             max-width: 280px; 
             max-height: 250px;
             border: 1px solid rgb(37, 36, 36);
-            border-radius: 5px;
+            border-radius: 4px;
         }
     }
     &__img-upload-btn {
         button {
-            background-color: #727f8b;
-            margin-top: 15px;
-            margin-bottom: 17px;
-            padding: 5px;
-            color: black;
+            background-color: transparent;
+            color: #b0bcc7;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            padding: 4px;
+            font-size: 12px;
             input {
                 display: none;
             }
         }
-        
+    }
+    &__delete-btn {
+        button {
+            padding: 4px 15px;
+            font-size: 12px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
     }
 }

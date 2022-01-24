@@ -1,39 +1,35 @@
 .match-video-with-exercises-section {
   margin-left: 10%;
-  padding-right: 30px;
+  padding-right: 16px;
+  font-size: 12px;
 }
 .match-video-with-exercises-section__title {
-  margin-top: 10px;
+  margin-top: 25px;
   margin-bottom: 10px;
-  font-size: 16px;
   color: #b0bcc7;
 }
 .match-video-with-exercises-section__description {
-  margin-right: 5%;
-  margin-bottom: 30px;
-  font-size: 14px;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  font-weight: 100;
   color: #b0bcc7;
 }
 .match-video-with-exercises-section__options .view-video-info {
   background-color: black;
   margin-left: 0;
-  margin-right: 5%;
+  margin-right: 10%;
   border-radius: 5px;
 }
 .match-video-with-exercises-section__options .view-video-info__name-with-icon-eye {
-  padding: 7px 12px 5px 0px;
+  padding: 5px;
+  margin: 5px;
   clear: both;
   display: inline-block;
   white-space: nowrap;
 }
 .match-video-with-exercises-section__options .view-video-info__name-with-icon-eye a {
   margin-left: 4px;
-  margin-right: 5px;
-  padding: 10px;
-}
-.match-video-with-exercises-section__options .view-video-info__name-with-icon-eye a .icon-eye {
-  font-size: 15px;
-  margin-top: 6px;
+  margin-right: 12px;
 }
 .match-video-with-exercises-section__options .view-video-info__name-with-icon-eye span {
   color: #b0bcc7;
@@ -45,15 +41,15 @@
   float: right;
   background-color: #727f8b;
   color: black;
+  font-size: 12px;
 }
-.match-video-with-exercises-section__options .view-video-info__view-form button :hover {
-  cursor: pointer;
-  background-color: #797878;
+.match-video-with-exercises-section__options .view-video-info__view-form button:hover {
+  background-color: transparent;
+  color: #b0bcc7;
 }
 .match-video-with-exercises-section__options .plain-text {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 14px;
   color: #b0bcc7;
   font-style: italic;
 }
@@ -62,74 +58,111 @@
 }
 .match-video-with-exercises-section__options .add-new-exercise {
   margin-right: 10%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .match-video-with-exercises-section__options .add-new-exercise button {
   background-color: transparent;
   color: #b0bcc7;
+  width: 100%;
+  font-size: 12px;
 }
 .match-video-with-exercises-section__options .add-new-exercise button:hover {
-  color: black;
-  background-color: #faad14;
+  color: white;
+  background-color: #727f8b;
 }
 
 .video-thumbnail-section {
   margin-left: 10%;
+  margin-right: 10%;
+  font-size: 12px;
+  border-top: 2px solid #041220;
 }
 .video-thumbnail-section__title {
-  font-size: 16px;
-  margin-bottom: 5px;
-  margin-top: 10px;
   color: #86919c;
+  margin-top: 25px;
+  margin-bottom: 1px;
+  font-size: 12px;
+}
+.video-thumbnail-section__sub-title {
+  font-size: 12px;
+  color: #86919c;
+  margin-bottom: 1px;
 }
 .video-thumbnail-section__video-name {
-  font-size: 27px;
-  font-weight: bold;
   color: #b0bcc7;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
+  font-size: 22px;
+  font-weight: 600;
 }
 .video-thumbnail-section__description {
-  font-size: 12px;
-  margin-bottom: 8px;
   color: #86919c;
+  margin-bottom: 1px;
+  font-weight: 200;
 }
 .video-thumbnail-section__image img {
   width: 100%;
   max-width: 280px;
   max-height: 250px;
   border: 1px solid #252424;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 .video-thumbnail-section__img-upload-btn button {
-  background-color: #727f8b;
-  margin-top: 15px;
-  margin-bottom: 17px;
-  padding: 5px;
-  color: black;
+  background-color: transparent;
+  color: #b0bcc7;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 4px;
+  font-size: 12px;
 }
 .video-thumbnail-section__img-upload-btn button input {
   display: none;
 }
+.video-thumbnail-section__delete-btn button {
+  padding: 4px 15px;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 
 .form-exercise {
   margin-left: 10%;
-  padding-right: 30px;
+  margin-right: 10%;
   color: #b0bcc7;
 }
+.form-exercise__title {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #86919c;
+}
+.form-exercise label {
+  font-size: 12px;
+  color: #b0bcc7;
+}
+.form-exercise input {
+  height: 30px;
+}
+.form-exercise input::placeholder {
+  font-size: 12px;
+}
+.form-exercise input:active {
+  background-color: #727f8b;
+}
 .form-exercise__button-back button {
-  padding: 8px 20px 8px 20px;
-  margin-bottom: 25px;
-  margin-top: 10px;
+  padding: 6px 18px 6px 18px;
+  margin-bottom: 10px;
   background-color: #0e0f10;
   border: 0;
 }
+.form-exercise__button-back button:hover {
+  background-color: #727f8b;
+}
 .form-exercise__exercise-name {
   color: #b0bcc7;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 .form-exercise__inputs .form-inputs {
-  background-color: rgba(1, 10, 16, 0.65);
+  background-color: black;
   border-style: none;
   color: #FFF;
 }
@@ -139,119 +172,213 @@
   white-space: nowrap;
 }
 .form-exercise__inputs .form-check-input {
-  background-color: rgba(1, 10, 16, 0.65);
+  background-color: black;
+}
+.form-exercise__inputs .form-check-label {
+  color: #b0bcc7;
 }
 .form-exercise__inputs-button-submit {
   float: right;
 }
 .form-exercise__inputs-button-submit button {
-  padding: 5px 40px 5px 40px;
+  padding: 5px 30px 5px 30px;
   margin-bottom: 20px;
   background-color: #0a5c36;
+  font-size: 12px;
 }
 
-.video-updating-app-container {
+@media screen and (max-width: 767px) {
+  .form-exercise__button-back button {
+    margin-top: 10px;
+  }
+}
+.modal-success__header {
+  background-color: #001e3c;
+  padding-top: 0px;
+}
+.modal-success__header--left {
+  margin-bottom: 20px;
+}
+.modal-success__header--right {
+  margin-bottom: 20px;
+}
+.modal-success__header--right p {
+  float: right;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 12px 4px;
+  color: #c5ced6;
+}
+.modal-success__body {
+  background-color: #001e3c;
+  padding: 50px 30px 80px 30px;
+}
+.modal-success__body--success-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px 0px;
+}
+.modal-success__body--success-icon .icon-group {
+  margin: 30px 0px;
+}
+.modal-success__body--success-icon .icon-group__svg {
+  background-color: #001e3c;
+}
+.modal-success__body--message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  color: #b0bcc7;
+  font-size: 14px;
+  padding-bottom: 12px;
+  margin: 25px 0px;
+}
+.modal-success__body--action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  margin-bottom: 40px;
+}
+.modal-success__body--action button {
+  font-size: 14px;
+  padding: 5px 20px 5px 20px;
+}
+
+.video-updating-app-outer-container {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(800deg, #727f8b 50%, #14213d 50%);
+  background: linear-gradient(800deg, #727f8b 50%, #000000 50%);
   justify-content: center;
   overflow-y: auto;
-  padding: 5% 0px 5% 0px;
   display: flex;
+  padding: 5% 0px 5% 0px;
 }
 
 .video-updating-app {
-  padding: 15px;
-  border-radius: 20px;
-  box-shadow: 8px 8px 18px #010a3b;
+  box-shadow: 10px 10px 20px #010a3b;
 }
 .video-updating-app__header--left {
-  background-color: #000000;
+  background-color: #001e3c;
 }
 .video-updating-app__header--right {
   background-color: #001e3c;
 }
 .video-updating-app__header--right p {
   float: right;
-  font-size: 20px;
-  padding: 12px 12px 12px 12px;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  border: 1px solid #000000;
-  box-shadow: 2px 2px 5px #161414;
-  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 12px 4px;
   color: #c5ced6;
-  background-color: #05264ee3;
 }
 .video-updating-app__body--left {
-  background-color: #000000;
-  border-top: 1px solid #041220;
+  background-color: #001e3c;
 }
 .video-updating-app__body--right {
-  background-color: #001d3d;
+  background-color: #001e3c;
 }
 .video-updating-app__footer {
   background-color: #001d3d;
-  border-top: 6px solid #000000;
 }
-.video-updating-app__footer--skip {
-  padding: 20px 50px 20px 30px;
+.video-updating-app__footer-left {
+  background-color: #001e3c;
 }
-.video-updating-app__footer--skip button {
+.video-updating-app__footer-left-container {
+  padding: 0 12px;
+}
+.video-updating-app__footer-left-container--skip {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 7%;
+  padding-top: 20px;
+}
+.video-updating-app__footer-left-container--skip button {
+  background-color: #727f8b;
+  color: black;
+  font-size: 12px;
+  padding: 8px 8%;
+  width: 100%;
+}
+.video-updating-app__footer-left-container--skip button:hover {
   color: #b0bcc7;
   background-color: transparent;
-  border: 2px solid #b0bcc7;
-  font-size: 18px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-left: 10%;
 }
-.video-updating-app__footer--next {
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  position: relative;
+.video-updating-app__footer-left-container--back {
+  padding-top: 20px;
+  margin-left: 0px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
-.video-updating-app__footer--next button {
-  position: static;
-  float: right;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  font-size: 20px;
-  padding-left: 60px;
-  padding-right: 60px;
+.video-updating-app__footer-left-container--back button {
+  background-color: #727f8b;
+  color: black;
+  font-size: 12px;
+  padding: 8px 8%;
+  width: 100%;
 }
-.video-updating-app__footer--next button:hover {
-  background-color: #e5e5e5;
-  color: #000000;
-  border: 0px;
+.video-updating-app__footer-left-container--back button:hover {
+  color: #b0bcc7;
+  background-color: transparent;
 }
-.video-updating-app__footer--delete {
-  padding: 30px 50px 23px 30px;
+.video-updating-app__footer-right {
+  background-color: #001e3c;
 }
-.video-updating-app__footer--delete button {
-  color: #fff;
-  font-size: 16px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-left: 10%;
+.video-updating-app__footer-right-container {
+  padding: 0px 12px;
+}
+.video-updating-app__footer-right-container--complete {
+  padding-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: 10%;
+}
+.video-updating-app__footer-right-container--complete button {
+  background-color: #727f8b;
+  color: black;
+  font-size: 12px;
+  padding: 8px 8%;
+  width: 100%;
+}
+.video-updating-app__footer-right-container--complete button:hover {
+  color: #b0bcc7;
+  background-color: transparent;
 }
 
 .exercise-search-bar-wrapper {
-  background-color: #e5e5e5;
-  padding: 5px 12px 5px 12px;
+  background-color: #717f8b;
+  padding: 1px 12px 1px 12px;
   border-radius: 5px;
   color: white;
   border: 2px solid #000000;
-  box-shadow: 5px 5px 8px #1a1a1a;
+  box-shadow: 3px 3px 6px #1a1a1a;
 }
 
 @media screen and (max-width: 767px) {
-  .video-updating-app__footer--skip {
-    padding: 16px 50px 20px 30px;
+  .video-updating-app__body--left {
+    background-color: #000000;
   }
-  .video-updating-app__footer--skip button {
-    margin-left: 20%;
+  .video-updating-app__footer-left-container--skip {
+    margin-left: 16%;
+  }
+  .video-updating-app__footer-left-container--skip button {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .video-updating-app__footer-left-container--back {
+    margin-left: 0px;
+  }
+  .video-updating-app__footer-left-container--back button {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .video-updating-app__footer-right-container--complete {
+    margin-right: 20%;
+  }
+  .video-updating-app__footer-right-container--complete button {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 

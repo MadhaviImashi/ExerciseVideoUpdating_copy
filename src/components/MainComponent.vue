@@ -1,9 +1,9 @@
 <template>
-  <div class="video-updating-app-container">
+  <div class="video-updating-app-outer-container">
       <b-container >
         <div class="video-updating-app">
           <!--heading -->
-          <b-row class="video-updating-app__header" cols="1" cols-sm="1" cols-md="2" cols-lg="2">
+          <b-row v-if="!showSuccessMsg" class="video-updating-app__header" cols="1" cols-sm="1" cols-md="2" cols-lg="2">
             <b-col class="video-updating-app__header--left"></b-col>
             <b-col class="video-updating-app__header--right"><p>{{currentVideoIndex+1}} / {{videos.length}}</p></b-col>
           </b-row>
@@ -28,13 +28,25 @@
 
           <!-- Footer -->
           <b-row class="video-updating-app__footer">
-              <b-col v-if="showOptionsToMatch" class="video-updating-app__footer--skip">
-                <b-button @click="openNextVideo">Skip</b-button>
+              <b-col class="video-updating-app__footer-left">
+                <b-row  class="video-updating-app__footer-left-container" cols="3">
+                  <b-col v-if="showOptionsToMatch" class="video-updating-app__footer-left-container--skip">
+                    <b-button @click="openNextVideo">Skip</b-button>
+                  </b-col>
+                  <b-col v-if="showOptionsToMatch" class="video-updating-app__footer-left-container--back">
+                    <b-button @click="openPreviousVideo">Back</b-button>
+                  </b-col>
+                </b-row>
               </b-col>
-              <b-col v-if="showNewExerciseForm" class="video-updating-app__footer--delete">
-                <b-button variant="danger">Delete Video</b-button>
-              </b-col>
-              <b-col>    
+
+              <b-col class="video-updating-app__footer-right">  
+                <b-row class="video-updating-app__footer-right-container" >
+                    <b-col></b-col>
+                    <b-col></b-col>
+                    <b-col v-if="showOptionsToMatch" class="video-updating-app__footer-right-container--complete">
+                        <b-button @click="openNextVideo">Complete</b-button>
+                    </b-col>
+                </b-row>
               </b-col>
           </b-row>
 
@@ -79,12 +91,15 @@ export default {
   },
   methods: {
     ...mapMutations([
-      'incrementCurrentIndexByOne'
+      'incrementCurrentIndexByOne',
+      'decrementCurrentIndexByOne',
+      'changeVideoDeleteButtonDisplayStatus'
     ]),
     showAddExerciseForm () {
       this.showOptionsToMatch = false,
       this.showUpdateExerciseForm = false,
-      this.showNewExerciseForm = true
+      this.showNewExerciseForm = true,
+      this.changeVideoDeleteButtonDisplayStatus(true)
     },
     showExerciseUpdateForm() {
       this.showOptionsToMatch = false,
@@ -93,13 +108,15 @@ export default {
     },
     showMatchVideoOptions () {
       this.showNewExerciseForm = false,
-      this.showOptionsToMatch = true
+      this.showOptionsToMatch = true,
+      this.changeVideoDeleteButtonDisplayStatus(false)
     },
     showSuccessMsgModal (message) {
       this.successStatus = message
       this.showNewExerciseForm = false,
       this.showOptionsToMatch = false,
-      this.showSuccessMsg = true
+      this.showSuccessMsg = true,
+      this.changeVideoDeleteButtonDisplayStatus(false)
     },
     openNextVideo () {
       //increment the current video index by one.
@@ -107,6 +124,12 @@ export default {
       //display video matching options window again
       this.showSuccessMsg = false,
       this.showOptionsToMatch = true
+    },
+    openPreviousVideo () {
+        //decrement the current video index by one.
+        this.decrementCurrentIndexByOne()
+        //display video matching options window again
+        this.showOptionsToMatch = true
     }
   },
   computed: {

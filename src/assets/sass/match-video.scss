@@ -1,40 +1,36 @@
 .match-video-with-exercises-section {
     margin-left: 10%;
-    padding-right: 30px;
+    padding-right: 16px;
+    font-size: 12px;
 
     &__title {
-        margin-top: 10px;
+        margin-top: 25px;
         margin-bottom: 10px;
-        font-size: 16px;
         color: #b0bcc7;
     }
 
     &__description {
-        margin-right: 5%; 
-        margin-bottom: 30px; 
-        font-size: 14px;
+        margin-right: 10%; 
+        margin-bottom: 20px; 
+        font-weight: 100;
         color: #b0bcc7;
     }
     &__options {
         .view-video-info {
             background-color: black;
             margin-left: 0;
-            margin-right: 5%;
+            margin-right: 10%;
             border-radius: 5px;
             
             &__name-with-icon-eye {
-                padding: 7px 12px 5px 0px;
+                padding: 5px;
+                margin: 5px;
                 clear: both;
                 display: inline-block;
                 white-space: nowrap;
                 a {
                     margin-left: 4px;
-                    margin-right: 5px;
-                    padding: 10px;
-                    .icon-eye {
-                        font-size: 15px;
-                        margin-top: 6px;
-                    }
+                    margin-right: 12px;
                 }
                 span {
                     color: #b0bcc7;
@@ -47,10 +43,11 @@
                     float: right; 
                     background-color: #727f8b;
                     color: black;
-                    :hover {
-                        cursor: pointer;
-                        background-color: rgb(121, 120, 120);
-                    }
+                    font-size: 12px;
+                }
+                button:hover {
+                    background-color: transparent;
+                    color: #b0bcc7;
                 }
             }
         }
@@ -58,7 +55,6 @@
         .plain-text {
             margin-top: 20px;
             margin-bottom: 20px;
-            font-size: 14px;
             color: #b0bcc7;
             font-style: italic;
         }
@@ -69,14 +65,16 @@
 
         .add-new-exercise {
             margin-right: 10%;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             button {
                 background-color: transparent;
                 color: #b0bcc7;
+                width: 100%;
+                font-size: 12px;
             }
             button:hover {
-                color: black;
-                background-color: #faad14;
+                color: white;
+                background-color: #727f8b;
             }
         }
     }

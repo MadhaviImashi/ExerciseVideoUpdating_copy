@@ -1,25 +1,48 @@
 .form-exercise {
     margin-left: 10%;
-    padding-right: 30px;
+    margin-right: 10%;
     color: #b0bcc7;
+
+    &__title {
+        font-size: 12px;
+        margin-bottom: 10px;
+        color: #86919c;
+    }
+
+    label {
+        font-size: 12px;
+        color: #b0bcc7;
+    }
+
+    input {
+        height: 30px;
+    }
+    input::placeholder {
+        font-size: 12px;
+    }
+    input:active {
+        background-color: #727f8b;
+    }
 
     &__button-back {
         button {
-            padding: 8px 20px 8px 20px; 
-            margin-bottom: 25px;
-            margin-top: 10px;
+            padding: 6px 18px 6px 18px; 
+            margin-bottom: 10px;
             background-color: #0e0f10;
             border: 0;
+        }
+        button:hover {
+            background-color: #727f8b;
         }
     }
     &__exercise-name {
         color: #b0bcc7; 
-        font-size: 25px; 
+        font-size: 20px; 
         font-weight: bold;
     }
     &__inputs {
         .form-inputs {
-            background-color: rgb(1 10 16 / 65%); 
+            background-color: black; 
             border-style: none; 
             color: #FFF;
         }
@@ -29,14 +52,29 @@
                 white-space: nowrap;
         }
         .form-check-input {
-            background-color: rgb(1 10 16 / 65%); 
+            background-color: black; 
+        }
+        .form-check-label {
+            color: #b0bcc7;
         }
         &-button-submit {
             float:right; 
             button {
-                padding: 5px 40px 5px 40px;
+                padding: 5px 30px 5px 30px;
                 margin-bottom: 20px;
                 background-color: #0a5c36;
+                font-size: 12px;
+                // width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .form-exercise {
+        &__button-back {
+            button {
+                margin-top: 10px;
             }
         }
     }
