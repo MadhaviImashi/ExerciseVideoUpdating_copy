@@ -35,7 +35,8 @@
                     <form-update-exercise v-if="showUpdateExerciseForm" 
                         @showMatchVideoOptions="showMatchVideoOptions" 
                         @showResult="showSuccessMsgModal($event)" 
-                        :videoDetails="videos[currentVideoIndex]">
+                        :videoDetails="videos[currentVideoIndex]"
+                        :exerciseName="selectedExercise">
                     </form-update-exercise>
                   </div>
               </b-col>
@@ -103,7 +104,8 @@ export default {
           showNewExerciseForm: false,
           showSuccessMsg: false,
           showUpdateExerciseForm: false,
-          successStatus: ''
+          successStatus: '',
+          selectedExercise: ''
       }
   },
   methods: {
@@ -118,7 +120,8 @@ export default {
       this.showNewExerciseForm = true,
       this.changeVideoDeleteButtonDisplayStatus(true)
     },
-    showExerciseUpdateForm() {
+    showExerciseUpdateForm(exerciseName) {
+      this.selectedExercise = exerciseName,
       this.showOptionsToMatch = false,
       this.showNewExerciseForm = false,
       this.showUpdateExerciseForm = true

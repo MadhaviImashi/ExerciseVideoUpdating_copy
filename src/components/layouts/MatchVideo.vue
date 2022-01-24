@@ -7,29 +7,14 @@
 
          <div class="match-video-with-exercises-section__options">
                 <div v-if="videoDetails.Matched === 'Yes'">
-                    <b-row  class="view-video-info">
-                        <b-col cols="1" sm="1" class="view-video-info__name-with-icon-eye">
-                            <a>
-                                <b-icon-eye class="view-video__icon-eye" :variant="'white'" scale="1.5" id="show-btn" @click="$bvModal.show('bv-modal-example', {centered: true})"></b-icon-eye>
-                                <b-modal id="bv-modal-example" hide-footer>
-                                    <div class="d-block text-center">
-                                        <iframe :src="'https://player.vimeo.com/video/665732096?h=600f1855e3'" width="420" height="350" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
-                                </b-modal>
-                            </a>
-                            <span>{{videoDetails.Exercisename}}</span>
-                        </b-col>
-                        <b-col class="view-video-info__view-form">
-                            <b-button @click="showExerciseDetails" size="sm">Select</b-button>
-                        </b-col>
-                    </b-row>
+                    <view-matched-exercise :exerciseName="videoDetails.Exercisename" @showExerciseDetails="showExerciseDetails" :displayEyeIcon="true"></view-matched-exercise>
                     <p class="plain-text">or Search from entire exercise list</p>
                 </div>
 
                 <div  v-if="videoDetails.Matched === 'No'"><p class="plain-text">Search from entire exercise list</p></div>
 
                 <div class="search-bar">
-                    <search-bar></search-bar>
+                    <search-bar @showExerciseDetails="showExerciseDetails"></search-bar>
                 </div>
                 
                 <p class="plain-text">or</p>
@@ -43,9 +28,10 @@
 
 <script>
 import SearchBar from '../sub-components/SearchBar.vue'
+import ViewMatchedExercise from '../sub-components/ViewMatchedExercise.vue'
 
 export default {
-  components: { SearchBar },
+  components: { SearchBar, ViewMatchedExercise },
     name: 'MatchVideo',
     data: function () {
         return {
@@ -62,8 +48,8 @@ export default {
         showNewExerciseForm () {
             this.$emit('showNewExerciseForm', true)
         },
-        showExerciseDetails () {
-            this.$emit('showExerciseDetails', true)
+        showExerciseDetails (exerciseName) {
+            this.$emit('showExerciseDetails', exerciseName)
         }
     }
 }

@@ -47,6 +47,13 @@
   background-color: transparent;
   color: #b0bcc7;
 }
+.match-video-with-exercises-section__options .view-searched-exercise {
+  margin-top: 20px;
+  margin-right: 0%;
+  margin-left: 0%;
+  background-color: black;
+  border-radius: 5px;
+}
 .match-video-with-exercises-section__options .plain-text {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -353,7 +360,7 @@
   border-radius: 5px;
   color: white;
   border: 2px solid #000000;
-  box-shadow: 3px 3px 6px #1a1a1a;
+  box-shadow: 2px 2px 5px #1a1a1a;
 }
 
 @media screen and (max-width: 767px) {

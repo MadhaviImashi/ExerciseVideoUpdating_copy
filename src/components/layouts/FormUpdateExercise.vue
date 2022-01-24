@@ -9,7 +9,7 @@
 
       <div class="form-exercise__title">Exercise</div>
 
-      <p class="form-exercise__exercise-name">{{videoDetails.Exercisename}}</p>
+      <p class="form-exercise__exercise-name">{{exerciseName}}</p>
 
       <div class="form-exercise__inputs">
         <b-form @submit="onSubmit" @reset="onReset" v-if="show">
@@ -133,7 +133,11 @@
     },
     props: {
         videoDetails: {
-            type: Object
+          type: Object
+        },
+        exerciseName: {
+          type: String,
+          default: ''
         }
     },
     methods: {
