@@ -140,6 +140,7 @@
 }
 .form-exercise input {
   height: 30px;
+  font-size: 12px;
 }
 .form-exercise input::placeholder {
   font-size: 12px;

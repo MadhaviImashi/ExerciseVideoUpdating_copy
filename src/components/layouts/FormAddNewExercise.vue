@@ -10,6 +10,14 @@
 
       <div class="form-exercise__inputs">
         <b-form @submit="onSubmit" @reset="onReset" v-if="show">
+
+          <b-row class="mb-2">
+            <b-col sm="4"><label for="input-0" >Name</label></b-col>
+            <b-col sm="8">
+              <b-form-input id="input-0" v-model="exerciseName" type="text" placeholder="" class="form-inputs" required></b-form-input>
+            </b-col>
+          </b-row>
+
           <b-row class="mb-2">
             <b-col sm="4"><label for="input-1" >Equipment</label></b-col>
             <b-col sm="8">
@@ -118,12 +126,19 @@
         ],
         showSuccessMsg: false,
         form: {
+          exercisename: 'dfd',
           level: '',
           priority: '',
           injuries: '',
           checked: ['Men', 'Gym', 'Women', 'Home']
         },
         show: true
+      }
+    },
+    props: {
+      exerciseName: {
+        type: String,
+        default: 'default'
       }
     },
     methods: {
@@ -150,7 +165,15 @@
       showResult () {
         this.$emit('showResult', 'added')
       }
-    }
+    },
+    computed: {
+      currentVideoIndex () {
+        return this.$store.getters.getCurrentVidIndex
+      },
+      videos () {
+        return this.$store.getters.getmatchReport
+      }
+  }
   }
 </script>
 

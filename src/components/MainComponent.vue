@@ -28,6 +28,7 @@
                   </div>
                   <div v-else >
                     <form-add-new-exercise v-if="showNewExerciseForm" 
+                        :exerciseName="videos[currentVideoIndex].Exercisename"
                         @showMatchVideoOptions="showMatchVideoOptions" 
                         @showResult="showSuccessMsgModal($event)">
                     </form-add-new-exercise>
