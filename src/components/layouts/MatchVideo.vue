@@ -20,7 +20,7 @@
                             <span>{{videoDetails.Exercisename}}</span>
                         </b-col>
                         <b-col class="view-video-info__view-form">
-                            <b-button @click="showExerciseDetails" size="sm">view details</b-button>
+                            <b-button @click="showExerciseDetails" size="sm">Select</b-button>
                         </b-col>
                     </b-row>
                     <p class="plain-text">or Search from entire exercise list</p>
@@ -35,7 +35,7 @@
                 <p class="plain-text">or</p>
 
                 <div class="add-new-exercise">
-                    <b-button size="lg" @click="showNewExerciseForm">Create New exercise</b-button>
+                    <b-button size="lg" @click="showNewExerciseForm">Create New Exercise</b-button>
                 </div>
         </div>
     </div>

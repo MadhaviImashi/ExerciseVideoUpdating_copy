@@ -17,7 +17,7 @@
             <b-col>
                 <div class="video-thumbnail-section__img-upload-btn">
                     <b-button >
-                        <label for="file-field">change thumbnail</label>
+                        <label for="file-field">Change Thumbnail</label>
                         <input name="image" type="file" id="file-field" @change="updateImgPreview">
                     </b-button>
                 </div>
