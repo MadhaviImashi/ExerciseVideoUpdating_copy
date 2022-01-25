@@ -60,13 +60,13 @@
           </b-row>
 
           <!--success modal-->
-          <div v-if="showSuccessMsg">
-            <modal-success 
-                @showNextVideo="openNextVideo" 
-                :exerciseVidName="videos[currentVideoIndex].Exercisename" 
-                :statusMsg="successStatus">
-            </modal-success>
-          </div>
+            <div v-if="showSuccessMsg">
+              <modal-success 
+                  @showNextVideo="openNextVideo" 
+                  :exerciseVidName="videos[currentVideoIndex].Exercisename" 
+                  :statusMsg="successStatus">
+              </modal-success>
+            </div>
         </div>
       </b-container>
   </div>
@@ -134,15 +134,24 @@ export default {
       this.showOptionsToMatch = false,
       this.showSuccessMsg = true,
       this.changeVideoDeleteButtonDisplayStatus(false)
+      this.openNextVideo()
     },
     openNextVideo () {
-      //refresh searched values in the search bar
-      this.refreshSearchBar()
-      //increment the current video index by one.
-      this.incrementCurrentIndexByOne()
-      //display video matching options window again
-      this.showSuccessMsg = false,
-      this.showOptionsToMatch = true
+      if(this.showSuccessMsg===false) {
+        this.successStatus = 'skipped'
+        this.showNewExerciseForm = false,
+        this.showOptionsToMatch = false,
+        this.showSuccessMsg = true
+      }
+      setTimeout(() => {
+        //refresh searched values in the search bar
+        this.refreshSearchBar()
+        //increment the current video index by one.
+        this.incrementCurrentIndexByOne()
+        //display video matching options window again
+        this.showSuccessMsg = false,
+        this.showOptionsToMatch = true
+      }, 300)
     },
     openPreviousVideo () {
       //refresh searched values in the search bar
@@ -163,4 +172,16 @@ export default {
   }
 }
 </script>
+
+<style>
+.fade-enter-from {
+  opacity: 0;
+}
+.fade-enter-to {
+  opacity: 1;
+}
+.fade-enter-active {
+  transition: all 1000s ease;
+}
+</style>
 

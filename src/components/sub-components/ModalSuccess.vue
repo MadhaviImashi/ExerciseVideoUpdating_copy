@@ -15,11 +15,11 @@
                 </b-list-group>
             </div>
             <div class="modal-success__body--message">{{getTitle}}</div>
-            <div class="modal-success__body--action">
+            <!-- <div class="modal-success__body--action">
                 <b-button variant="success" @click="showNextVideo">
                     Next Video
                 </b-button>
-            </div>
+            </div> -->
           </b-row>
   </div>
 </template>
@@ -51,7 +51,12 @@ export default {
   },
   computed: {
       getTitle() {
+        if(this.statusMsg==='skipped'){
+          return this.exerciseVidName+' exercise video skipped'
+        }
+        else {
           return this.exerciseVidName+' exericise has been ' + this.statusMsg+ '!'
+        }
       },
     currentVideoIndex () {
       return this.$store.getters.getCurrentVidIndex
