@@ -9,6 +9,7 @@ export default new Vuex.Store({
         videos: matchReport,
         currentVideoIndex: 0,
         showDeleteVideoOption: false,
+        searchedExerciseValue: null,
     },
     getters: {
         getCurrentVidIndex(state) {
@@ -19,6 +20,9 @@ export default new Vuex.Store({
         },
         getmatchReport(state) {
             return state.videos
+        },
+        getSearchedExercise(state) {
+            return state.searchedExerciseValue
         }
     },
     mutations: {
@@ -42,6 +46,14 @@ export default new Vuex.Store({
             if (state.currentVideoIndex === state.videos.length) {
                 state.currentVideoIndex = 0;
             }
+        },
+        refreshSearchBar(state) {
+            state.searchedExerciseValue = null
+            console.log('search value set to null')
+        },
+        setSearchedExerciseValue(state, value) {
+            state.searchedExerciseValue = value
+            console.log('val ',state.searchedExerciseValue)
         }
     }
 })

@@ -56,13 +56,6 @@
               </b-col>
 
               <b-col class="video-updating-app__footer-right">  
-                <!-- <b-row class="video-updating-app__footer-right-container" >
-                    <b-col></b-col>
-                    <b-col></b-col>
-                    <b-col v-if="showOptionsToMatch" class="video-updating-app__footer-right-container--complete">
-                        <b-button @click="openNextVideo">Complete</b-button>
-                    </b-col>
-                </b-row> -->
               </b-col>
           </b-row>
 
@@ -112,7 +105,8 @@ export default {
     ...mapMutations([
       'incrementCurrentIndexByOne',
       'decrementCurrentIndexByOne',
-      'changeVideoDeleteButtonDisplayStatus'
+      'changeVideoDeleteButtonDisplayStatus',
+      'refreshSearchBar'
     ]),
     showAddExerciseForm () {
       this.showOptionsToMatch = false,
@@ -127,6 +121,9 @@ export default {
       this.showUpdateExerciseForm = true
     },
     showMatchVideoOptions () {
+      //refresh searched values in the search bar
+      this.refreshSearchBar()
+      
       this.showNewExerciseForm = false,
       this.showOptionsToMatch = true,
       this.changeVideoDeleteButtonDisplayStatus(false)
@@ -139,6 +136,8 @@ export default {
       this.changeVideoDeleteButtonDisplayStatus(false)
     },
     openNextVideo () {
+      //refresh searched values in the search bar
+      this.refreshSearchBar()
       //increment the current video index by one.
       this.incrementCurrentIndexByOne()
       //display video matching options window again
@@ -146,10 +145,12 @@ export default {
       this.showOptionsToMatch = true
     },
     openPreviousVideo () {
-        //decrement the current video index by one.
-        this.decrementCurrentIndexByOne()
-        //display video matching options window again
-        this.showOptionsToMatch = true
+      //refresh searched values in the search bar
+      this.refreshSearchBar()
+      //decrement the current video index by one.
+      this.decrementCurrentIndexByOne()
+      //display video matching options window again
+      this.showOptionsToMatch = true
     }
   },
   computed: {

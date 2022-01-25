@@ -1,8 +1,8 @@
 <template>
         <b-row :class="componentClasses">
             <b-col cols="1" sm="1" class="view-video-info__name-with-icon-eye">
-                <a>
-                    <b-icon-eye v-if="displayEyeIcon" class="view-video__icon-eye" :variant="'white'" scale="1.5" id="show-btn" @click="$bvModal.show('bv-modal-example', {centered: true})"></b-icon-eye>
+                <a v-if="!anExerciseIsSearched">
+                    <b-icon-eye  class="view-video__icon-eye" :variant="'white'" scale="1.5" id="show-btn" @click="$bvModal.show('bv-modal-example', {centered: true})"></b-icon-eye>
                     <b-modal id="bv-modal-example" hide-footer>
                         <div class="d-block text-center">
                             <iframe :src="'https://player.vimeo.com/video/665732096?h=600f1855e3'" width="420" height="350" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
@@ -24,10 +24,6 @@ export default {
     props: {
         exerciseName: {
             type: String
-        },
-        displayEyeIcon: {
-            type: Boolean,
-            default: false
         },
         anExerciseIsSearched: {
             type: Boolean,

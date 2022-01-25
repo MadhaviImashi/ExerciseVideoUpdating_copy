@@ -7,7 +7,7 @@
 
          <div class="match-video-with-exercises-section__options">
                 <div v-if="videoDetails.Matched === 'Yes'">
-                    <view-matched-exercise :exerciseName="videoDetails.Exercisename" @showExerciseDetails="showExerciseDetails" :displayEyeIcon="true"></view-matched-exercise>
+                    <view-matched-exercise :exerciseName="videoDetails.Exercisename" @showExerciseDetails="showExerciseDetails"></view-matched-exercise>
                     <p class="plain-text">or Search from entire exercise list</p>
                 </div>
 
