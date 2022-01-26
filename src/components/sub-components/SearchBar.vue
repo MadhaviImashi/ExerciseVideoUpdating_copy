@@ -12,21 +12,16 @@
       >
       </ejs-autocomplete>
     </div>
-
-    <view-matched-exercise v-if="searchedValue!=null" :exerciseName="searchedValue" @showExerciseDetails="showExerciseDetails" :anExerciseIsSearched="true"></view-matched-exercise>
-    
 </div>
 </template>
 
 <script>
 import { mapMutations } from 'vuex'
 import matchReport from '../../convertCsvToJson/matchReport.json'
-import ViewMatchedExercise from './ViewMatchedExercise.vue'
 
 let result = matchReport.map( item => item.Exercisename)
 
 export default {
-  components: { ViewMatchedExercise },
 
   data: function() {
     return {
@@ -39,10 +34,16 @@ export default {
           'setSearchedExerciseValue'
         ]),
         showExerciseDetails (exerciseName) {
-            this.$emit('showExerciseDetails', exerciseName)
+          // call the showExerciseDetails() method in MatchVideo component to show the Exercise form
+          this.$emit('showExerciseDetails', exerciseName)
         },
         updateSearchValue () {
-          this.setSearchedExerciseValue (this.value)
+          if(this.localData.includes(this.value)){
+            this.setSearchedExerciseValue (this.value)
+            if(this.searchedValue!=null){
+              this.showExerciseDetails(this.searchedValue)
+            }
+          }
         }
   },
   computed: {
