@@ -1,10 +1,5 @@
 <template>
     <div class="video-thumbnail-section">
-        <div v-if="showButtonBack" class="button-back">
-            <b-button  @click="goBack" >
-                <b-icon-arrow-left :variant="'#1a1a1a'" scale="1.3"></b-icon-arrow-left>
-            </b-button>
-        </div>
         <div class="video-thumbnail-section__title">Matching the video with exercise</div>
         <div class="video-thumbnail-section__sub-title">Video</div>
         <div class="video-thumbnail-section__video-name">{{videoDetails.Exercisename}}</div>
@@ -53,9 +48,6 @@ export default {
         },
         currentIndex: {
             type: Number
-        },
-        showButtonBack: {
-            default: true
         }
     },
     methods: {

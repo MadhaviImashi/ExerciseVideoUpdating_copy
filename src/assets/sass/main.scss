@@ -43,7 +43,7 @@ $bg-right: $shiny-dark-blue;
                     float: right;
                     font-size: 12px;
                     font-weight: 700;
-                    padding: 12px 4px;
+                    padding: 12px 1px;
                     color: #c5ced6;
                 }
             }
@@ -133,9 +133,10 @@ $bg-right: $shiny-dark-blue;
 }
 
 .button-back {
-    margin-top: 10px;
+    padding-top: 12px;
+    //margin-left: 1%;
     button {
-        padding: 6px 18px 6px 18px; 
+        padding: 4px 16px 4px 16px; 
         background-color: #0e0f10;
         border: 0;
     }

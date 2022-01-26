@@ -81,7 +81,6 @@
   margin-left: 10%;
   margin-right: 10%;
   font-size: 12px;
-  border-top: 2px solid #041220;
 }
 .video-thumbnail-section__title {
   color: #86919c;
@@ -283,7 +282,7 @@
   float: right;
   font-size: 12px;
   font-weight: 700;
-  padding: 12px 4px;
+  padding: 12px 1px;
   color: #c5ced6;
 }
 .video-updating-app__body--left {
@@ -359,10 +358,10 @@
 }
 
 .button-back {
-  margin-top: 10px;
+  padding-top: 12px;
 }
 .button-back button {
-  padding: 6px 18px 6px 18px;
+  padding: 4px 16px 4px 16px;
   background-color: #0e0f10;
   border: 0;
 }

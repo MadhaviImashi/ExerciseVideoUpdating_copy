@@ -3,8 +3,16 @@
       <b-container >
         <div class="video-updating-app">
           <!--heading -->
-          <b-row v-if="!showSuccessMsg" class="video-updating-app__header" cols="1" cols-sm="1" cols-md="2" cols-lg="2">
-            <b-col class="video-updating-app__header--left"></b-col>
+          <b-row v-if="!showSuccessMsg" class="video-updating-app__header" cols="2" cols-sm="2" cols-md="2" cols-lg="2">
+
+            <b-col class="video-updating-app__header--left">
+              <div v-if="showOptionsToMatch" class="button-back">
+                <b-button  @click="openPreviousVideo" >
+                    <b-icon-arrow-left :variant="'#1a1a1a'" scale="1.3"></b-icon-arrow-left>
+                </b-button>
+              </div>
+            </b-col>
+
             <b-col class="video-updating-app__header--right"><p>{{currentVideoIndex+1}} / {{videos.length}}</p></b-col>
           </b-row>
 
