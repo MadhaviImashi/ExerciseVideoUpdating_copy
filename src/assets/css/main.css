@@ -3,7 +3,7 @@
   font-size: 12px;
 }
 .match-video-with-exercises-section__title {
-  margin-top: 25px;
+  margin-top: 10px;
   margin-bottom: 10px;
   color: #b0bcc7;
 }
@@ -85,7 +85,7 @@
 }
 .video-thumbnail-section__title {
   color: #86919c;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-bottom: 1px;
   font-size: 12px;
 }
@@ -136,6 +136,7 @@
   color: #b0bcc7;
 }
 .form-exercise__title {
+  margin-top: 10px;
   font-size: 12px;
   margin-bottom: 10px;
   color: #86919c;
@@ -184,14 +185,19 @@
 .form-exercise__inputs .form-check-label {
   color: #b0bcc7;
 }
-.form-exercise__inputs-button-submit {
-  float: right;
-}
-.form-exercise__inputs-button-submit button {
-  padding: 5px 30px 5px 30px;
+.form-exercise__button-container--button-submit button {
+  padding: 5px 5% 5px 5%;
   margin-bottom: 20px;
   background-color: #0a5c36;
   font-size: 12px;
+  width: 100%;
+}
+.form-exercise__button-container--button-back button {
+  background-color: transparent;
+  padding: 5px 5% 5px 5%;
+  margin-bottom: 20px;
+  font-size: 12px;
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {
@@ -293,12 +299,11 @@
   background-color: #001e3c;
 }
 .video-updating-app__footer-left-container {
-  padding: 0 12px;
+  padding: 0 12px 0 10px;
 }
 .video-updating-app__footer-left-container--skip {
-  margin-top: 40px;
   margin-bottom: 20px;
-  margin-left: 7%;
+  margin-left: 8%;
   padding-top: 20px;
 }
 .video-updating-app__footer-left-container--skip button {
@@ -351,6 +356,18 @@
 .video-updating-app__footer-right-container--complete button:hover {
   color: #b0bcc7;
   background-color: transparent;
+}
+
+.button-back {
+  margin-top: 10px;
+}
+.button-back button {
+  padding: 6px 18px 6px 18px;
+  background-color: #0e0f10;
+  border: 0;
+}
+.button-back button:hover {
+  background-color: #727f8b;
 }
 
 .exercise-search-bar-wrapper {

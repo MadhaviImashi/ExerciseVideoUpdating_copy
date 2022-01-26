@@ -64,13 +64,11 @@ $bg-right: $shiny-dark-blue;
         &-left {
             background-color: $bg-left;
             &-container {
-                // margin-left: 10%;
-                padding: 0 12px;
+                padding: 0 12px 0 10px;
                 
                 &--skip {
-                    margin-top: 40px;
                     margin-bottom: 20px; 
-                    margin-left: 7%;
+                    margin-left: 8%;
                     padding-top: 20px;
                     button {
                         background-color: #727f8b;
@@ -80,7 +78,6 @@ $bg-right: $shiny-dark-blue;
                         width: 100%;
                     }
                     button:hover {
-                        
                         color: #b0bcc7;
                         background-color: transparent;
                     }
@@ -132,6 +129,18 @@ $bg-right: $shiny-dark-blue;
             }
         }
         
+    }
+}
+
+.button-back {
+    margin-top: 10px;
+    button {
+        padding: 6px 18px 6px 18px; 
+        background-color: #0e0f10;
+        border: 0;
+    }
+    button:hover {
+        background-color: #727f8b;
     }
 }
 

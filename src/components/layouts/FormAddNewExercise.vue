@@ -1,11 +1,6 @@
 <template>
   <div>
     <div class="form-exercise">
-      <div class="form-exercise__button-back">
-        <b-button  @click="goBack" >
-          <b-icon-arrow-left :variant="'#1a1a1a'" scale="1.3"></b-icon-arrow-left>
-        </b-button>
-      </div>
       <div class="form-exercise__title">Exercise</div>
 
       <div class="form-exercise__inputs">
@@ -100,11 +95,20 @@
               <b-form-input id="input-10" v-model="form.reps" type="text" placeholder="Reps" class="form-inputs" required></b-form-input>
             </b-col>
           </b-row>
-
-          <div class="form-exercise__inputs-button-submit">
-              <b-button type="submit" variant="success" @click="showResult">Add Exercise</b-button>
-          </div> 
         </b-form>
+      </div>
+
+      <div class="form-exercise__button-container">
+            <b-row cols="4" >
+                <b-col></b-col>
+                <b-col></b-col>
+                <b-col class="form-exercise__button-container--button-back">
+                  <b-button  @click="goBack">Cancel</b-button>
+                </b-col> 
+                <b-col class="form-exercise__button-container--button-submit">
+                  <b-button  type="submit" variant="success" @click="showResult">Next</b-button>
+                </b-col> 
+            </b-row>
       </div>
     </div>
   </div>

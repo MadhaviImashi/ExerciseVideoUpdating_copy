@@ -16,7 +16,9 @@
                       :videoImgSrc="'https://martech.org/wp-content/uploads/2015/01/video-generic-ss-1920.jpg'"  
                       :videoDetails="videos[currentVideoIndex]" 
                       :currentIndex="currentVideoIndex" 
-                      @displayNextVideoToBeMatched="showMatchVideoOptions"></video-thumbnail>
+                      @displayNextVideoToBeMatched="showMatchVideoOptions"
+                      @goBack="openPreviousVideo"
+                      :showButtonBack="showOptionsToMatch"></video-thumbnail>
               </b-col>
               <b-col class="video-updating-app__body--right">
                 <!-- video matching options Or form to update/add new exercise will be shown on the right side-->
@@ -45,12 +47,9 @@
           <!-- Footer -->
           <b-row class="video-updating-app__footer">
               <b-col class="video-updating-app__footer-left">
-                <b-row  class="video-updating-app__footer-left-container" cols="3">
+                <b-row  class="video-updating-app__footer-left-container" cols="2" cols-sm="2" cols-md="3">
                   <b-col v-if="showOptionsToMatch" class="video-updating-app__footer-left-container--skip">
                     <b-button @click="openNextVideo">Skip</b-button>
-                  </b-col>
-                  <b-col v-if="showOptionsToMatch" class="video-updating-app__footer-left-container--back">
-                    <b-button @click="openPreviousVideo">Back</b-button>
                   </b-col>
                 </b-row>
               </b-col>
