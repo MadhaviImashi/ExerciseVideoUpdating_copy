@@ -24,9 +24,9 @@
             </b-col>
             <b-col>
                 <!-- show delete video option when user open add new exercise form -->
-                <div v-if="showDeleteVideoOption" class="video-thumbnail-section__delete-btn">
+                <!-- <div v-if="showDeleteVideoOption" class="video-thumbnail-section__delete-btn">
                     <b-button variant="outline-danger" @click="showConfirmationBox">Delete Video</b-button>
-                </div> 
+                </div>  -->
             </b-col>
         </b-row>
     </div>
